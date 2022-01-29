@@ -1,0 +1,1992 @@
+[
+	{
+		"id" : "24910934-cbb0-47c9-91f4-955a33d943f4",
+		"variantName" : "Fresh Pumpkin - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "0c44c7db-4ac3-4785-bf1f-ba65a657969b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Set in robocoupe #2, Set oven to Aubergine program\", \"ingredientName\": \"Fresh Pumpkin\"}]"
+	},
+	{
+		"id" : "24910934-cbb0-47c9-91f4-955a33d943f4",
+		"variantName" : "Fresh Pumpkin - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix roast in oven for 15 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "3dc6b655-5933-4963-bf60-56c772e30748",
+		"variantName" : "Steamed Venus Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "820ce17f-8470-4839-9bbf-be1ede851f44",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "3dc6b655-5933-4963-bf60-56c772e30748",
+		"variantName" : "Steamed Venus Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "3dc6b655-5933-4963-bf60-56c772e30748",
+		"variantName" : "Steamed Venus Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 16.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"na\", \"instructions\": \"Drain and Blast Freeze it for 15 minutes at -20deg\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "3dc6b655-5933-4963-bf60-56c772e30748",
+		"variantName" : "Steamed Venus Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 50.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \"na\", \"instructions\": \"Season with Rice. Vacuum seal for 15 seconds\", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "fcb4e764-cb9b-47f5-bbce-9fe9f6be893a",
+		"variantName" : "Cabbage, Red - Cut",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "0230514d-0844-4cb7-bc53-413c514bac22",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cut\", \"instructions\": \"In thin pieces\", \"ingredientName\": \"Cabbage - Red\"}]"
+	},
+	{
+		"id" : "c8774964-8dac-4477-8936-74a22f3d288a",
+		"variantName" : "Barley Tomatoes Mint Feta Salad",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 400.00,
+		"ingredientId" : "6037c5f2-4877-4581-a518-7435ec7bdf1b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "c8774964-8dac-4477-8936-74a22f3d288a",
+		"variantName" : "Barley Tomatoes Mint Feta Salad",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 170.00,
+		"ingredientId" : "10f83d14-aa9b-4ad4-918f-f9f08c06832a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "c8774964-8dac-4477-8936-74a22f3d288a",
+		"variantName" : "Barley Tomatoes Mint Feta Salad",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 250.00,
+		"ingredientId" : "d61cd4d6-742e-498a-b45c-7552f3d2cb00",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "c8774964-8dac-4477-8936-74a22f3d288a",
+		"variantName" : "Barley Tomatoes Mint Feta Salad",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 90.00,
+		"ingredientId" : "2bde91b9-6d31-41f7-8e5d-bead4e7a7e87",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "c8774964-8dac-4477-8936-74a22f3d288a",
+		"variantName" : "Barley Tomatoes Mint Feta Salad",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 140.00,
+		"ingredientId" : "420a26e5-da83-4ea9-bfff-9af14f336f62",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "10556627-e7b0-4b3a-bbd9-2dda4019a98d",
+		"variantName" : "Fennel - Cubed",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 999.99,
+		"ingredientId" : "774c4d70-05bd-4a35-abe9-1604c0d9649c",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Fennel, Fresh\"}]"
+	},
+	{
+		"id" : "2edf0415-5dd3-42fe-909f-0cbc92384560",
+		"variantName" : "Steamed Barley ",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "6037c5f2-4877-4581-a518-7435ec7bdf1b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"1kg x Low Gastro Cook with Barley Program with Unox Oven\", \"ingredientName\": \"Pearled Barley\"}]"
+	},
+	{
+		"id" : "2edf0415-5dd3-42fe-909f-0cbc92384560",
+		"variantName" : "Steamed Barley ",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "2edf0415-5dd3-42fe-909f-0cbc92384560",
+		"variantName" : "Steamed Barley ",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 16.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"na\", \"instructions\": \"Drain and Blast Freeze it for 15 minutes at 20deg\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "2edf0415-5dd3-42fe-909f-0cbc92384560",
+		"variantName" : "Steamed Barley ",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 50.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \"na\", \"instructions\": \"Season the Rice and vacuum seal it for 15 seconds\", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "49ffb69f-0c84-4b85-9985-79737794c3d1",
+		"variantName" : "Spinach - Sautee",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 999.99,
+		"ingredientId" : "d21ba18f-8919-4fa4-9352-7f206bf37d86",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Defrost\", \"instructions\": \"Cook\", \"ingredientName\": \"Spinach\"}]"
+	},
+	{
+		"id" : "4c5703b1-4264-410b-9990-63c307d999a0",
+		"variantName" : "Zucchini - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "a1568001-4b8c-4e67-b064-3edda685983c",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Cut in robocoupe #2, Set oven to Zuccini program\", \"ingredientName\": \"Zucchini\"}]"
+	},
+	{
+		"id" : "4c5703b1-4264-410b-9990-63c307d999a0",
+		"variantName" : "Zucchini - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roast in oven for 10 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "4c5703b1-4264-410b-9990-63c307d999a0",
+		"variantName" : "Zucchini - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "3966c09a-a5f7-40bc-89e7-55920c3f310a",
+		"variantName" : "Prep - Basil Tomato Soup",
+		"categoryId" : "38d4a450-2284-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Soup",
+		"amount" : 999.99,
+		"ingredientId" : "88f0288f-c1af-467f-9d47-b4a67a41bd12",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Defros\", \"instructions\": \"Put in the oven\", \"ingredientName\": \"Basil Tomato Soup\"}]"
+	},
+	{
+		"id" : "cc16b142-f52a-411e-916d-78f836b4ea4b",
+		"variantName" : "Cous cous with mixed vegetables - cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "bcb206b9-0238-4972-961a-a6b027926ad7",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Cous Cous with mixed vegetables\"}]"
+	},
+	{
+		"id" : "cc16b142-f52a-411e-916d-78f836b4ea4b",
+		"variantName" : "Cous cous with mixed vegetables - cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 500.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Water\"}]"
+	},
+	{
+		"id" : "cc16b142-f52a-411e-916d-78f836b4ea4b",
+		"variantName" : "Cous cous with mixed vegetables - cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 500.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"61b62d49-31e5-4361-aab9-b27c38c16feb\", \"stepId\": 3, \"preparation\": \"Steam\", \"instructions\": \"In the oven\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "eb73060b-d34e-4c30-9493-72689a1cc2a7",
+		"variantName" : "Broccoli - Roasted",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "90a26c45-54a5-46bf-97e8-175639a504ea",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Defrost and roast in the oven\", \"ingredientName\": \"Broccoli\"}]"
+	},
+	{
+		"id" : "25765bde-a0e0-4efc-9169-cf8ce7bf2ecf",
+		"variantName" : "Aubergines - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "399f135b-39f6-43a7-8687-7944807eab4f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Cut in robocoupe # 2, Set in oven to Aubergine program\", \"ingredientName\": \"Aubergines\"}]"
+	},
+	{
+		"id" : "25765bde-a0e0-4efc-9169-cf8ce7bf2ecf",
+		"variantName" : "Aubergines - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roast in oven for 35 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "a6a11461-ae1f-461a-bf5d-ab230892fc50",
+		"variantName" : "Celery - Cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "a0eda398-6550-486c-a115-0e14f705af5e",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Celery\"}]"
+	},
+	{
+		"id" : "d4f92956-f117-45ad-b9c3-2873e45bf749",
+		"variantName" : "Roasted Potatoes - Cut & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "03fa55f8-c235-4dc1-981d-5ee9c5f1af2d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Cut in 2, Set oven to Potatoes program\", \"ingredientName\": \"Small Potatoes\"}]"
+	},
+	{
+		"id" : "d4f92956-f117-45ad-b9c3-2873e45bf749",
+		"variantName" : "Roasted Potatoes - Cut & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roast in oven for 20 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "d4f92956-f117-45ad-b9c3-2873e45bf749",
+		"variantName" : "Roasted Potatoes - Cut & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "77e5c142-fbdc-4735-b27c-2fac876bc706",
+		"variantName" : "Prep - Pumpkin Penne Mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 300.00,
+		"ingredientId" : "886924e2-9e89-4775-a6bd-83c74d6392b2",
+		"subRecipeId" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "77e5c142-fbdc-4735-b27c-2fac876bc706",
+		"variantName" : "Prep - Pumpkin Penne Mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 120.00,
+		"ingredientId" : "4f777eed-23ea-41a8-b443-ab9c7e830c90",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "77e5c142-fbdc-4735-b27c-2fac876bc706",
+		"variantName" : "Prep - Pumpkin Penne Mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 40.00,
+		"ingredientId" : "378128cc-c9a1-4e66-b403-942219892d70",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "77e5c142-fbdc-4735-b27c-2fac876bc706",
+		"variantName" : "Prep - Pumpkin Penne Mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 60.00,
+		"ingredientId" : "bde2d7ec-7ac0-4aac-837f-30379631dc7f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "77e5c142-fbdc-4735-b27c-2fac876bc706",
+		"variantName" : "Prep - Pumpkin Penne Mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 120.00,
+		"ingredientId" : null,
+		"subRecipeId" : "eb73060b-d34e-4c30-9493-72689a1cc2a7",
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "c6fb2b82-4e70-4aa4-ab52-4b6df81af1ea",
+		"variantName" : "Penne all'arrabbiatta mix",
+		"categoryId" : "693cd020-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "The Classics",
+		"amount" : 300.00,
+		"ingredientId" : "886924e2-9e89-4775-a6bd-83c74d6392b2",
+		"subRecipeId" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "c6fb2b82-4e70-4aa4-ab52-4b6df81af1ea",
+		"variantName" : "Penne all'arrabbiatta mix",
+		"categoryId" : "693cd020-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "The Classics",
+		"amount" : 100.00,
+		"ingredientId" : "02a7cc08-5a17-4017-8a4e-dd129c7aba36",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Arrabbiatta Sauce\"}]"
+	},
+	{
+		"id" : "c6fb2b82-4e70-4aa4-ab52-4b6df81af1ea",
+		"variantName" : "Penne all'arrabbiatta mix",
+		"categoryId" : "693cd020-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "The Classics",
+		"amount" : 100.00,
+		"ingredientId" : "6d9d0678-aaef-468a-ab15-0dbb9e617d30",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Tomatoe Sauce\"}]"
+	},
+	{
+		"id" : "c6fb2b82-4e70-4aa4-ab52-4b6df81af1ea",
+		"variantName" : "Penne all'arrabbiatta mix",
+		"categoryId" : "693cd020-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "The Classics",
+		"amount" : 50.00,
+		"ingredientId" : null,
+		"subRecipeId" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Red Bell Peppers - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "c6fb2b82-4e70-4aa4-ab52-4b6df81af1ea",
+		"variantName" : "Penne all'arrabbiatta mix",
+		"categoryId" : "693cd020-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "The Classics",
+		"amount" : 2.00,
+		"ingredientId" : "e0191097-2f6f-42d5-8d16-4704875abd16",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Parsley\"}]"
+	},
+	{
+		"id" : "de876e00-b214-49e7-9f06-6941f4264cbf",
+		"variantName" : "Bella&Bona Salad Mix 1",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 350.00,
+		"ingredientId" : "5968d22c-db3f-46a2-992b-87e8213ca566",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "de876e00-b214-49e7-9f06-6941f4264cbf",
+		"variantName" : "Bella&Bona Salad Mix 1",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 250.00,
+		"ingredientId" : "f1c28b7c-a8c2-4edc-9147-ffa5c2dc745d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "de876e00-b214-49e7-9f06-6941f4264cbf",
+		"variantName" : "Bella&Bona Salad Mix 1",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 200.00,
+		"ingredientId" : "d3174282-5b9a-4032-a694-2654d62b49f0",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "de876e00-b214-49e7-9f06-6941f4264cbf",
+		"variantName" : "Bella&Bona Salad Mix 1",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "2b3b6562-a4f4-4a7b-811b-c7f79a639e11",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "de876e00-b214-49e7-9f06-6941f4264cbf",
+		"variantName" : "Bella&Bona Salad Mix 1",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "4ad2da99-6976-45d1-88b4-4d9e9f6a75fd",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "306b375f-214b-49ce-bde0-39e19f34d16f",
+		"variantName" : "Fresh Marinated Salmon",
+		"categoryId" : "2b80a090-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Fish",
+		"amount" : 999.99,
+		"ingredientId" : "e10ca8e1-94b9-436c-9919-f35ed46d99d6",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "306b375f-214b-49ce-bde0-39e19f34d16f",
+		"variantName" : "Fresh Marinated Salmon",
+		"categoryId" : "2b80a090-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Fish",
+		"amount" : 400.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "306b375f-214b-49ce-bde0-39e19f34d16f",
+		"variantName" : "Fresh Marinated Salmon",
+		"categoryId" : "2b80a090-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Fish",
+		"amount" : 400.00,
+		"ingredientId" : "e8b005a3-d5ac-43fb-a335-4233f49682bb",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "83e2da46-9923-476d-8c6a-5bfb52b3e152",
+		"variantName" : "Carrots - Cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : null,
+		"subRecipeId" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Carrots - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "cc395d45-0478-4b62-bd25-de1ff978787f",
+		"variantName" : "Springrolls - Baked",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 10.00,
+		"ingredientId" : "bfb166d2-4434-4b52-a68a-bc7cfe389300",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Bake\", \"instructions\": \"In the oven\", \"ingredientName\": \"Springrolls\"}]"
+	},
+	{
+		"id" : "4141ea0d-0186-4d2e-9344-e335cf298b78",
+		"variantName" : "Apple - Cubed",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 999.99,
+		"ingredientId" : "34a3cbe4-c2a3-4f54-8a20-12f1440daf1d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Apple\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 600.00,
+		"ingredientId" : "2a6ec625-2641-4857-8fc0-b4ecf4efb045",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Spatzle\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 100.00,
+		"ingredientId" : "4a41e442-2a0f-40cd-900b-311980a8fcb0",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Cooking Cream \"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 100.00,
+		"ingredientId" : "47e66274-6bae-462e-93d2-d03be17d8d31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Milk\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 150.00,
+		"ingredientId" : "0c44c7db-4ac3-4785-bf1f-ba65a657969b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Fresh Pumpkin\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 150.00,
+		"ingredientId" : null,
+		"subRecipeId" : "86472c76-f32b-4ea1-b237-b4995582a8f9",
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Champignon - Roasted\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 10.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "86d4587b-f271-48da-ab55-92a8505907f2",
+		"variantName" : "Autumn Spatzle Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 2.00,
+		"ingredientId" : "922cb933-00e6-4bb1-a7b9-64b7ffa2a31a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Black Pepper\"}]"
+	},
+	{
+		"id" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"variantName" : "Red Bell Peppers - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "cddbf2cd-57c0-47e8-a8c0-3ae93272dc2c",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Set in robocoupe #2, Set oven to Peppers program.\", \"ingredientName\": \"Red Bell Peppers\"}]"
+	},
+	{
+		"id" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"variantName" : "Red Bell Peppers - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roast in oven for 12 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 250.00,
+		"ingredientId" : "886924e2-9e89-4775-a6bd-83c74d6392b2",
+		"subRecipeId" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"instructions" : "[{\"stepId\": 6}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 60.00,
+		"ingredientId" : "7bdf0992-860b-4b61-a23f-8ea66b4d9806",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"Roated\", \"instructions\": \" \", \"ingredientName\": \"Champignon\"}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 60.00,
+		"ingredientId" : "5c2b39c6-f636-4f2b-bedb-4c87541d1baf",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"Steamed\", \"instructions\": \" \", \"ingredientName\": \"Edamame\"}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 60.00,
+		"ingredientId" : "6fc7bb01-ad8a-4748-851a-1d4ec9ea854d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Chickpeas\"}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 40.00,
+		"ingredientId" : "87e6e7f9-edad-4ba1-8032-17493ffbda38",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Sesame Miso Dressing\"}]"
+	},
+	{
+		"id" : "013d8c17-cd03-4a13-85dc-db4f2b1ce422",
+		"variantName" : "Whole grain penne tahini mix",
+		"categoryId" : "5fc52b60-19f2-11ec-b93e-9ff9f13c8568",
+		"categoryName" : "Pasta",
+		"amount" : 2.00,
+		"ingredientId" : "f2ec290a-500a-4feb-afb3-32aaa3cd608c",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Chives\"}]"
+	},
+	{
+		"id" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"variantName" : "Penne wholewheat - Boiled",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 1000.00,
+		"ingredientId" : "886924e2-9e89-4775-a6bd-83c74d6392b2",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Boil\", \"ingredientName\": \"Penne Whole Wheat\"}]"
+	},
+	{
+		"id" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"variantName" : "Penne wholewheat - Boiled",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 2000.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "7be6996e-e2a1-4a8f-941f-a83d5cdd0095",
+		"variantName" : "Egg - Soft Boiled",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 1.00,
+		"ingredientId" : "58f0d758-1a43-457d-a062-25bc29f2b53f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Soft Boil\", \"instructions\": \" \", \"ingredientName\": \"Egg - Raw\"}]"
+	},
+	{
+		"id" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"variantName" : "Steamed Noodles",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 999.99,
+		"ingredientId" : "927512d6-82d6-4ec9-9649-4716108e5135",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"variantName" : "Steamed Noodles",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 4000.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"variantName" : "Steamed Noodles",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 24.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"na\", \"instructions\": \"Cook at 96-100 Steam for 13 minutes, Drain and freeze for 10 minutes at -30deg\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"variantName" : "Steamed Noodles",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 50.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \"na\", \"instructions\": \"Season with oil, label and store into the fridge for -5 days\", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "f37b24c0-21a5-4ce7-bfac-f0c591f8c2ad",
+		"variantName" : "Plant based beef chunks - baked",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 999.99,
+		"ingredientId" : "9beaa53b-5ad9-41c9-a2a0-bb92aa8f1798",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"In the oven\", \"ingredientName\": \"Plant based beef chunks\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 80.00,
+		"ingredientId" : "b7f7add4-4d35-4690-8358-54bb7281df88",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Lemon Juice\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 200.00,
+		"ingredientId" : "9106a072-1c29-441c-a4fd-e4a9ac0e930b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Tahini\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 100.00,
+		"ingredientId" : "e8b005a3-d5ac-43fb-a335-4233f49682bb",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"White Sugar\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 200.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 40.00,
+		"ingredientId" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Soy Sauce\"}]"
+	},
+	{
+		"id" : "f94a5161-a9f9-4d43-83a3-c832bbaa1b91",
+		"variantName" : "Lemon Tahini Dressing",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 5.00,
+		"ingredientId" : "4ed0a4b5-ba91-4f8a-aff4-0a8c3a11727f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together using the blender\", \"ingredientName\": \"Sesame Seeds\"}]"
+	},
+	{
+		"id" : "b593cf1b-7e9b-44a5-8b84-eb35f8dfab5d",
+		"variantName" : "Tomatoes - Cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "d61cd4d6-742e-498a-b45c-7552f3d2cb00",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Tomatoes\"}]"
+	},
+	{
+		"id" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"variantName" : "Steamed Fusilli",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "296eb8ea-76e5-4c0a-9a6b-6bf7a7c9f738",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"variantName" : "Steamed Fusilli",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 4000.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"variantName" : "Steamed Fusilli",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 24.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"na\", \"instructions\": \"Cook at 96-100 deg, Steam for 13 minutes. Drain and freeze blast for 10 minutes at -30 deg\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"variantName" : "Steamed Fusilli",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 50.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \"na\", \"instructions\": \"Season with oil, label and store in fridge for 5 days\", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "0b2daaa6-58a1-4e9b-8b5d-f6e75f7f649e",
+		"variantName" : "Steamed Basmati Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "a0b56e01-c777-4304-a444-aea3840c23f3",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"1kg x Low Gastro Cook with Basmati Rice Program with Unox Oven\", \"ingredientName\": \"Rice - White Basmati\"}]"
+	},
+	{
+		"id" : "0b2daaa6-58a1-4e9b-8b5d-f6e75f7f649e",
+		"variantName" : "Steamed Basmati Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "0b2daaa6-58a1-4e9b-8b5d-f6e75f7f649e",
+		"variantName" : "Steamed Basmati Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 16.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \"na\", \"instructions\": \"Drain and Blast Freeze it for 15 minutes at -20deg\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "0b2daaa6-58a1-4e9b-8b5d-f6e75f7f649e",
+		"variantName" : "Steamed Basmati Rice",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 50.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \"na\", \"instructions\": \"Season the Rice and vacuum seal for 15 seconds\", \"ingredientName\": \"Sunflower Oil\"}]"
+	},
+	{
+		"id" : "44e0d040-e88c-4d65-a266-0df59bc1dca4",
+		"variantName" : "Chicken Gyros - grilled",
+		"categoryId" : "81684080-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Addons",
+		"amount" : 999.99,
+		"ingredientId" : "b3490de5-0588-40e2-8992-6acdae146a27",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"In the oven\", \"ingredientName\": \"Gyros\"}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 280.00,
+		"ingredientId" : "58cfd87f-8f83-4914-b4e3-9f95bed4bb9b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 50.00,
+		"ingredientId" : "47e66274-6bae-462e-93d2-d03be17d8d31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "86472c76-f32b-4ea1-b237-b4995582a8f9",
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 70.00,
+		"ingredientId" : "6ffca9bc-2642-4005-ab15-94410977cc07",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 100.00,
+		"ingredientId" : "b7da54d3-415b-4d19-a280-2edb13462b95",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 2.00,
+		"ingredientId" : "922cb933-00e6-4bb1-a7b9-64b7ffa2a31a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 6}]"
+	},
+	{
+		"id" : "8b349211-b73f-4012-a12b-0790fb0c05be",
+		"variantName" : "Schupznudeln Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 7}]"
+	},
+	{
+		"id" : "31425ef9-8a84-49ec-a4e1-bea214d843a4",
+		"variantName" : "Shrimp Gyoza - Steamed",
+		"categoryId" : "ebfb9a80-1612-11ec-a34a-430755041d78",
+		"categoryName" : "Protein",
+		"amount" : 7.00,
+		"ingredientId" : "361dc16b-9f3b-4905-9946-85ede1afefd3",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2fb5dc9a-7152-4d7d-9cff-a9e01c106de6\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Steam\", \"ingredientName\": \"Shrimp Gyoza\"}]"
+	},
+	{
+		"id" : "31425ef9-8a84-49ec-a4e1-bea214d843a4",
+		"variantName" : "Shrimp Gyoza - Steamed",
+		"categoryId" : "ebfb9a80-1612-11ec-a34a-430755041d78",
+		"categoryName" : "Protein",
+		"amount" : 50.00,
+		"ingredientId" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"90b7f3d4-e753-4b7c-a6dc-f0aba5f23fc3\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Soy Sauce\"}]"
+	},
+	{
+		"id" : "b82b2fe7-17a1-4043-8335-41cccbc59f2d",
+		"variantName" : "Gnocchi Ragu Mix",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 320.00,
+		"ingredientId" : "64d0966e-de25-4591-afde-f60fec3ea000",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Open the pack\", \"ingredientName\": \"Gnocchi Potatoes\"}]"
+	},
+	{
+		"id" : "b82b2fe7-17a1-4043-8335-41cccbc59f2d",
+		"variantName" : "Gnocchi Ragu Mix",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 180.00,
+		"ingredientId" : "2923e814-462a-46f3-9377-122cff4d7248",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Defrost\", \"ingredientName\": \"Ragout Bolognese\"}]"
+	},
+	{
+		"id" : "b82b2fe7-17a1-4043-8335-41cccbc59f2d",
+		"variantName" : "Gnocchi Ragu Mix",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 500.00,
+		"ingredientId" : "4a41e442-2a0f-40cd-900b-311980a8fcb0",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \"Mix ingredients together and Cook in the Oven for 20 minutes, 160°, 100% Static\", \"ingredientName\": \"Cooking Cream \"}]"
+	},
+	{
+		"id" : "0992e2ec-6029-4ead-8928-c0dacc70a11d",
+		"variantName" : "Halloumi - Grilled",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 999.99,
+		"ingredientId" : "877cb4b5-5756-4d78-af4e-ec6fd8f0f2de",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Slice\", \"instructions\": \"and bake in the oven\", \"ingredientName\": \"Halloumi - Raw\"}]"
+	},
+	{
+		"id" : "65f14e7a-4371-47db-9ae4-f0c140a1bb1d",
+		"variantName" : "Sweet Potatoes - Roasted",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "5969205a-07cf-451d-9e01-db04cb2c2fd3",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Bake\", \"instructions\": \"In the oven\", \"ingredientName\": \"Sweet Potatoes\"}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 200.00,
+		"ingredientId" : null,
+		"subRecipeId" : "e6073d4a-2327-462a-821c-c56e109665e1",
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 70.00,
+		"ingredientId" : "9916e78f-7534-42f3-b017-43166b055982",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 50.00,
+		"ingredientId" : null,
+		"subRecipeId" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "4c5703b1-4264-410b-9990-63c307d999a0",
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 30.00,
+		"ingredientId" : "20f95717-fb71-4274-8790-32e5d1a88117",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "a0c63664-281d-4163-a29c-f2dbbb0e482c",
+		"variantName" : "Glass Noodle Mix",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 15.00,
+		"ingredientId" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 6}]"
+	},
+	{
+		"id" : "218559f3-ad07-4d04-8712-1d28fb446aa5",
+		"variantName" : "Paccheri - Oven Baked",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 999.99,
+		"ingredientId" : "e34b1a72-8048-41c3-a513-640ee7f40434",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 250.00,
+		"ingredientId" : null,
+		"subRecipeId" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Steamed Fusilli\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 40.00,
+		"ingredientId" : "378128cc-c9a1-4e66-b403-942219892d70",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Cut julienne\", \"ingredientName\": \"Tomato - Sun Dried\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 50.00,
+		"ingredientId" : null,
+		"subRecipeId" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Red Bell Peppers - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 30.00,
+		"ingredientId" : "4ad2da99-6976-45d1-88b4-4d9e9f6a75fd",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Arugula\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 40.00,
+		"ingredientId" : "2bde91b9-6d31-41f7-8e5d-bead4e7a7e87",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Olives Black\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 50.00,
+		"ingredientId" : "df0a1d93-1811-451b-b2e0-0d08d971988c",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Balsamic Dressing\"}]"
+	},
+	{
+		"id" : "5e660d58-88d4-4e40-9e44-9a93195b8596",
+		"variantName" : "Mediterranian cruise mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 70.00,
+		"ingredientId" : "10f83d14-aa9b-4ad4-918f-f9f08c06832a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Feta Cheese\"}]"
+	},
+	{
+		"id" : "4afa8d07-44ff-4cc5-a837-4c6e99b229eb",
+		"variantName" : "Celeriac - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "b2cf9389-a7fa-437b-a703-e20f66ab9ec6",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"In the oven\", \"ingredientName\": \"Celeriac\"}]"
+	},
+	{
+		"id" : "136966da-b895-4888-8053-b689db1c2f05",
+		"variantName" : "Kimchi Gyoza - steamed in soy sauce",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 5.00,
+		"ingredientId" : "d7bdb8d2-e809-4e1b-9e3d-2683cc30b198",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Steam\", \"instructions\": \" \", \"ingredientName\": \"Kimchi Gyoza \"}]"
+	},
+	{
+		"id" : "136966da-b895-4888-8053-b689db1c2f05",
+		"variantName" : "Kimchi Gyoza - steamed in soy sauce",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Add kimchi in soy sauce\", \"ingredientName\": \"Soy Sauce\"}]"
+	},
+	{
+		"id" : "55404c12-9322-4d03-84fb-22b722164027",
+		"variantName" : "Braten Sauce",
+		"categoryId" : "7259bab0-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Hot Bowl",
+		"amount" : 1000.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Water\"}]"
+	},
+	{
+		"id" : "55404c12-9322-4d03-84fb-22b722164027",
+		"variantName" : "Braten Sauce",
+		"categoryId" : "7259bab0-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Hot Bowl",
+		"amount" : 100.00,
+		"ingredientId" : "0e445fcb-3b36-4dfe-a09d-48976f55c81e",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Mix and boil for 1 minute\", \"ingredientName\": \"Braten Powder\"}]"
+	},
+	{
+		"id" : "43d3bf8d-0415-4c2d-82ac-d7104f969a95",
+		"variantName" : "Carrots - Peeled and cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "09bcb080-a36e-4296-b2a2-1e7c912eb767",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Peel and Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Carrots \"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 250.00,
+		"ingredientId" : null,
+		"subRecipeId" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Steamed Noodles\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 80.00,
+		"ingredientId" : null,
+		"subRecipeId" : "eb73060b-d34e-4c30-9493-72689a1cc2a7",
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Broccoli - Roasted\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 60.00,
+		"ingredientId" : null,
+		"subRecipeId" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Carrots - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 80.00,
+		"ingredientId" : null,
+		"subRecipeId" : "86472c76-f32b-4ea1-b237-b4995582a8f9",
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Champignon - Roasted\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 2.00,
+		"ingredientId" : "4ed0a4b5-ba91-4f8a-aff4-0a8c3a11727f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Sesame Seeds\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 100.00,
+		"ingredientId" : "b7f7add4-4d35-4690-8358-54bb7281df88",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Lemon Juice\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 500.00,
+		"ingredientId" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5a9b2f10-93f2-40db-b4c9-4e0eb7e1df49\", \"stepId\": 8, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Soy Sauce\"}]"
+	},
+	{
+		"id" : "d9ecdf6e-9344-4ef8-9156-1dfb256fa882",
+		"variantName" : "Sweet chili noodle mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 700.00,
+		"ingredientId" : "d347ec11-46ed-41e3-ac02-4eee04f38960",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"7\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Sweet Chilli Sauce\"}]"
+	},
+	{
+		"id" : "c09933d7-2b83-4890-adab-d00745d4d5fb",
+		"variantName" : "Cucumber - Cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "8904d935-b803-4184-bf15-2a8d1cfd960d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Cucumber\"}]"
+	},
+	{
+		"id" : "bab81fbb-bd63-444d-b6e9-f7b785151d49",
+		"variantName" : "Seasonal Veggies",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 70.00,
+		"ingredientId" : "7bdf0992-860b-4b61-a23f-8ea66b4d9806",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Champignon\"}]"
+	},
+	{
+		"id" : "bab81fbb-bd63-444d-b6e9-f7b785151d49",
+		"variantName" : "Seasonal Veggies",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Carrots - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "bab81fbb-bd63-444d-b6e9-f7b785151d49",
+		"variantName" : "Seasonal Veggies",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "25765bde-a0e0-4efc-9169-cf8ce7bf2ecf",
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Aubergines - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "27ff284f-3c26-4475-a20f-3a99ca8f7861",
+		"variantName" : "Fresh Pumpkin - Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "0c44c7db-4ac3-4785-bf1f-ba65a657969b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Open the bag, Set oven to Pumpkin program\", \"ingredientName\": \"Fresh Pumpkin\"}]"
+	},
+	{
+		"id" : "27ff284f-3c26-4475-a20f-3a99ca8f7861",
+		"variantName" : "Fresh Pumpkin - Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roast in oven for 15 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "27ff284f-3c26-4475-a20f-3a99ca8f7861",
+		"variantName" : "Fresh Pumpkin - Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "18d95775-6af2-4654-a44f-336bb223532f",
+		"variantName" : "Bratwurst - Roasted and Cut",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 10.00,
+		"ingredientId" : "92ae9ef5-689a-4228-aa00-596f245de73e",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Roast\", \"instructions\": \"Cut in half\", \"ingredientName\": \"Bratwurst\"}]"
+	},
+	{
+		"id" : "da052f3b-8886-425a-be46-16af9e94f296",
+		"variantName" : "Turmeric Cauliflower",
+		"categoryId" : "6f84b300-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "ae4dd74e-6f3b-4018-a19e-9ec0b7c61771",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Cauliflower\"}]"
+	},
+	{
+		"id" : "da052f3b-8886-425a-be46-16af9e94f296",
+		"variantName" : "Turmeric Cauliflower",
+		"categoryId" : "6f84b300-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Vegetables",
+		"amount" : 5.00,
+		"ingredientId" : "632fe1b9-75a5-4414-9061-77da923cadbc",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Turmeric\"}]"
+	},
+	{
+		"id" : "da052f3b-8886-425a-be46-16af9e94f296",
+		"variantName" : "Turmeric Cauliflower",
+		"categoryId" : "6f84b300-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Vegetables",
+		"amount" : 10.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "da052f3b-8886-425a-be46-16af9e94f296",
+		"variantName" : "Turmeric Cauliflower",
+		"categoryId" : "6f84b300-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Vegetables",
+		"amount" : 1.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \"Baked in the oven for 20 minutes at 180°\", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "63b0d58e-0de2-4a39-8ae8-a3d2482a82e3",
+		"variantName" : "Red pesto penne mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 300.00,
+		"ingredientId" : null,
+		"subRecipeId" : "4f0eedc9-515e-403d-95b4-73b0c469a0a8",
+		"instructions" : "[{\"key\": \"e8d3881e-4141-496e-8e3f-b823aafd4072\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Penne wholewheat - Boiled\"}]"
+	},
+	{
+		"id" : "63b0d58e-0de2-4a39-8ae8-a3d2482a82e3",
+		"variantName" : "Red pesto penne mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 80.00,
+		"ingredientId" : null,
+		"subRecipeId" : "4c5703b1-4264-410b-9990-63c307d999a0",
+		"instructions" : "[{\"key\": \"8d8d4ea6-3186-4539-abf5-5f924d21316c\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Zuccini - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "63b0d58e-0de2-4a39-8ae8-a3d2482a82e3",
+		"variantName" : "Red pesto penne mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 80.00,
+		"ingredientId" : null,
+		"subRecipeId" : "25765bde-a0e0-4efc-9169-cf8ce7bf2ecf",
+		"instructions" : "[{\"key\": \"144521ed-e1ac-404d-a0bd-8649da2f1a53\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Aubergines - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "63b0d58e-0de2-4a39-8ae8-a3d2482a82e3",
+		"variantName" : "Red pesto penne mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 100.00,
+		"ingredientId" : "8f89a030-95ab-463c-bf05-0e0eff7add31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Red pesto\"}]"
+	},
+	{
+		"id" : "63b0d58e-0de2-4a39-8ae8-a3d2482a82e3",
+		"variantName" : "Red pesto penne mix",
+		"categoryId" : "e3f4d5e0-227e-11ec-8c49-c75b884e6e64",
+		"categoryName" : "Pasta",
+		"amount" : 2.00,
+		"ingredientId" : "e0191097-2f6f-42d5-8d16-4704875abd16",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Parsley\"}]"
+	},
+	{
+		"id" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"variantName" : "Carrots - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "09bcb080-a36e-4296-b2a2-1e7c912eb767",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"na\", \"instructions\": \"Cut in robocoupe #2, Set oven to Carrots program\", \"ingredientName\": \"Carrots \"}]"
+	},
+	{
+		"id" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"variantName" : "Carrots - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 20.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"na\", \"instructions\": \"Mix and roat in oven for 10 minutes\", \"ingredientName\": \"Olive Oil\"}]"
+	},
+	{
+		"id" : "e1e921f5-1c3f-4874-b8c1-4a4570745778",
+		"variantName" : "Carrots - Cubed & Cooked",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 2.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "154be1ea-641c-4410-bb79-0c3e06c591fe",
+		"variantName" : "Tofu  Mix",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 65.00,
+		"ingredientId" : "3a8672ab-ed72-4a1a-b69f-8ed85dde217e",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Tofu Firm\"}]"
+	},
+	{
+		"id" : "154be1ea-641c-4410-bb79-0c3e06c591fe",
+		"variantName" : "Tofu  Mix",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 35.00,
+		"ingredientId" : "6ffca9bc-2642-4005-ab15-94410977cc07",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \"Cube\", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Smoked Tofu Firm\"}]"
+	},
+	{
+		"id" : "f45e7703-4011-4a78-a39d-aaeb486bdc48",
+		"variantName" : "Pear - Sliced",
+		"categoryId" : "7e9f46c0-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Fruit",
+		"amount" : 100.00,
+		"ingredientId" : "458306eb-330e-4d79-8dee-61c55c30d5c4",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Slice\", \"instructions\": \" \", \"ingredientName\": \"Pear\"}]"
+	},
+	{
+		"id" : "312e534c-e366-4a11-95ab-f635a594153e",
+		"variantName" : "Vegetable Gyoza - Steamed",
+		"categoryId" : "ebfb9a80-1612-11ec-a34a-430755041d78",
+		"categoryName" : "Protein",
+		"amount" : 100.00,
+		"ingredientId" : "e748a8a9-d114-4a09-85a0-0fec24e7f73a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "38db2815-7b43-4c06-988c-7f9753861eef",
+		"variantName" : "KazeSpatzle",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 300.00,
+		"ingredientId" : "2a6ec625-2641-4857-8fc0-b4ecf4efb045",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "38db2815-7b43-4c06-988c-7f9753861eef",
+		"variantName" : "KazeSpatzle",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 120.00,
+		"ingredientId" : "47e66274-6bae-462e-93d2-d03be17d8d31",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "38db2815-7b43-4c06-988c-7f9753861eef",
+		"variantName" : "KazeSpatzle",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 80.00,
+		"ingredientId" : "5cef84b7-3fb8-4886-b49d-839e96d67075",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "38db2815-7b43-4c06-988c-7f9753861eef",
+		"variantName" : "KazeSpatzle",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 2.00,
+		"ingredientId" : "922cb933-00e6-4bb1-a7b9-64b7ffa2a31a",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 200.00,
+		"ingredientId" : "91de76c3-55ad-406d-a5a7-90b7c379c1de",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 100.00,
+		"ingredientId" : "9106a072-1c29-441c-a4fd-e4a9ac0e930b",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 70.00,
+		"ingredientId" : "e8b005a3-d5ac-43fb-a335-4233f49682bb",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 400.00,
+		"ingredientId" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 4}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 200.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 5}]"
+	},
+	{
+		"id" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"variantName" : "Harissa Dressing",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 50.00,
+		"ingredientId" : "40aaf0b5-82c7-4ea4-86fd-2408bdff0334",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"5\", \"stepId\": 6, \"preparation\": \"na\", \"instructions\": \"Mix everything with a blender, Pour into a Biberon and Label\", \"ingredientName\": \"Vinegar\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 300.00,
+		"ingredientId" : null,
+		"subRecipeId" : "c0292b7f-ddc8-461d-b13b-a509d39c0386",
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Steamed Noodles\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "fcb4e764-cb9b-47f5-bbce-9fe9f6be893a",
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Cabbage, Red - Cut\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 50.00,
+		"ingredientId" : null,
+		"subRecipeId" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Red Bell Peppers - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 70.00,
+		"ingredientId" : null,
+		"subRecipeId" : "86472c76-f32b-4ea1-b237-b4995582a8f9",
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Champignon - Roasted\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 100.00,
+		"ingredientId" : "b7f7add4-4d35-4690-8358-54bb7281df88",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Lemon Juice\"}]"
+	},
+	{
+		"id" : "43df7b4b-ecfe-4da3-8178-5090bbdc2a2b",
+		"variantName" : "Thai Cold Noodle Salad Mix",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 5.00,
+		"ingredientId" : "360cb49a-00ef-4ff0-99f5-fded4026a230",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 6}]"
+	},
+	{
+		"id" : "b35a7a4e-7390-4c9c-890e-9718168c3bc8",
+		"variantName" : "Tomato - Sliced",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "d61cd4d6-742e-498a-b45c-7552f3d2cb00",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Slice\", \"instructions\": \"Use the knife\", \"ingredientName\": \"Tomatoes\"}]"
+	},
+	{
+		"id" : "cc8bc968-b2bc-487f-894a-806d9ab1e5c4",
+		"variantName" : "Chicken Sous Vide",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 100.00,
+		"ingredientId" : "c1466d0b-8114-4521-8e11-d9dd55e720f0",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 1}]"
+	},
+	{
+		"id" : "cc8bc968-b2bc-487f-894a-806d9ab1e5c4",
+		"variantName" : "Chicken Sous Vide",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 100.00,
+		"ingredientId" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 2}]"
+	},
+	{
+		"id" : "cc8bc968-b2bc-487f-894a-806d9ab1e5c4",
+		"variantName" : "Chicken Sous Vide",
+		"categoryId" : "24a9ae60-e54b-11eb-a8c5-6b04fbc1c6dc",
+		"categoryName" : "Meat",
+		"amount" : 100.00,
+		"ingredientId" : "22cea7c0-fe7c-4fc0-a319-36a54ad3c81f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"stepId\": 3}]"
+	},
+	{
+		"id" : "86472c76-f32b-4ea1-b237-b4995582a8f9",
+		"variantName" : "Champignon - Roasted",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "7bdf0992-860b-4b61-a23f-8ea66b4d9806",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Bake\", \"instructions\": \"In the oven\", \"ingredientName\": \"Champignon\"}]"
+	},
+	{
+		"id" : "e6073d4a-2327-462a-821c-c56e109665e1",
+		"variantName" : "Glass Noodles - Boiled",
+		"categoryId" : "6b38ff90-1613-11ec-a34a-430755041d78",
+		"categoryName" : "Base",
+		"amount" : 1000.00,
+		"ingredientId" : "ffc53a4b-e57b-439d-b141-7d745e8b1ac4",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Boil\", \"ingredientName\": \"Glass Noodles\"}]"
+	},
+	{
+		"id" : "38441a62-008e-4eda-8f2c-e5e8c3cbb7c5",
+		"variantName" : "Daikon - Cubed",
+		"categoryId" : "1d2920b0-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Vegetables",
+		"amount" : 999.99,
+		"ingredientId" : "bde8ac97-1107-4f12-9176-cb453f2f34bf",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Cube\", \"instructions\": \"Use the robocoupe\", \"ingredientName\": \"Daikon\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 300.00,
+		"ingredientId" : null,
+		"subRecipeId" : "f905b73c-7e5f-4e2a-be52-ab9a0ecdee9e",
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Steamed Fusilli\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 30.00,
+		"ingredientId" : null,
+		"subRecipeId" : "15644cb4-0f9d-470d-b295-00f06992009e",
+		"instructions" : "[{\"key\": \"1\", \"stepId\": 2, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Red Bell Peppers - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 50.00,
+		"ingredientId" : null,
+		"subRecipeId" : "24910934-cbb0-47c9-91f4-955a33d943f4",
+		"instructions" : "[{\"key\": \"2\", \"stepId\": 3, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Fresh Pumpkin - Cubed & Cooked\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 20.00,
+		"ingredientId" : "5c2b39c6-f636-4f2b-bedb-4c87541d1baf",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"3\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Edamame\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 5.00,
+		"ingredientId" : "b7f7add4-4d35-4690-8358-54bb7281df88",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"4\", \"stepId\": 5, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Lemon Juice\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 5.00,
+		"ingredientId" : "360cb49a-00ef-4ff0-99f5-fded4026a230",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"e6c3a6ed-6f2f-43cd-bb79-65bda3b84620\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \"Mix all ingredients together\", \"ingredientName\": \"Peanuts\"}]"
+	},
+	{
+		"id" : "2a5ce745-c65d-4766-a199-f53dfc87b9c8",
+		"variantName" : "Autumn Proteic Bomb Fusili Mix",
+		"categoryId" : "6e13ac90-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Healthy Boost",
+		"amount" : 500.00,
+		"ingredientId" : null,
+		"subRecipeId" : "c5467f7d-499b-49f9-bea9-cc769db9b0c5",
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 6, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Harissa Dressing\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 999.99,
+		"ingredientId" : "cf7ec377-ae06-4003-a7ad-6f336246f137",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"81fcd41a-fded-4c09-a058-34081d506d05\", \"stepId\": 9, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Lentils\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 500.00,
+		"ingredientId" : "03fa55f8-c235-4dc1-981d-5ee9c5f1af2d",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"63071a08-041e-41da-a48b-9b3fed5ac5ac\", \"stepId\": 2, \"preparation\": \"Cube\", \"instructions\": \" \", \"ingredientName\": \"Small Potatoes\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 6.00,
+		"ingredientId" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"85bd0531-49b6-4886-815b-ba9796c7865d\", \"stepId\": 4, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Salt\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 5000.00,
+		"ingredientId" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"dc23d233-6c4d-4c7f-840e-b1964da3dcd7\", \"stepId\": 8, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Water\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 50.00,
+		"ingredientId" : "a70bae8a-4838-4199-aece-9fc5068d4d71",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Chicken broth\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 400.00,
+		"ingredientId" : "196efacf-f8da-4aee-b672-fe7bc596880e",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"8\", \"stepId\": 9, \"preparation\": \"Slice\", \"instructions\": \"Boil everything together\", \"ingredientName\": \"Wurst\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 999.99,
+		"ingredientId" : "123c8ebe-4621-4660-bc09-591401f32b48",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"6\", \"stepId\": 7, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Vegetable Brunoise\"}]"
+	},
+	{
+		"id" : "8be458c1-4693-4e44-ac1f-5efaa1647a73",
+		"variantName" : "Lentil wurst soup",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 999.99,
+		"ingredientId" : "4b5ed248-6a21-4cba-a878-7f7da6916ecd",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"7\", \"stepId\": 8, \"preparation\": \" \", \"instructions\": \" \", \"ingredientName\": \"Vegetable Mix\"}]"
+	},
+	{
+		"id" : "8406de98-85db-42a6-9bd5-02b903d573e3",
+		"variantName" : "Quinoa - Steamed",
+		"categoryId" : "631b9960-f603-11eb-87ff-1fb23cc93192",
+		"categoryName" : "Salads",
+		"amount" : 999.99,
+		"ingredientId" : "70d13127-79e7-4ad8-8374-28051cb44d5f",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \" \", \"instructions\": \"Steam in the oven\", \"ingredientName\": \"Quinoa\"}]"
+	},
+	{
+		"id" : "7a435686-2e9d-44d7-8ac0-2f88e515b395",
+		"variantName" : "Bacon - Roasted",
+		"categoryId" : "29190160-e485-11eb-94e8-4da4f6154f71",
+		"categoryName" : "Meat",
+		"amount" : 80.00,
+		"ingredientId" : "d3808c36-2636-4583-b50b-6a29927ce2be",
+		"subRecipeId" : null,
+		"instructions" : "[{\"key\": \"0\", \"stepId\": 1, \"preparation\": \"Bake\", \"instructions\": \"In the oven\", \"ingredientName\": \"Bacon Raw\"}]"
+	}
+]

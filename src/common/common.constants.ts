@@ -1,3 +1,5 @@
+import { Temperature } from 'src/recipe/entities/recipe.entity';
+
 export const RAZORPAY_AXIOS = 'RAZORPAY_AXIOS';
 export const CONFIG_OPTIONS = 'CONFIG_OPTIONS';
 export const PUB_SUB = 'PUB_SUB';
@@ -19,6 +21,23 @@ export const SMS_AUTH_KEY = 'SMS_AUTH_KEY';
 export const WEBHOOK_SECRET = 'WEBHOOK_SECRET';
 
 export enum EVENTS {
-  PICKUP_REQUESTED = 'order.pickupRequested',
-  ORDER_CREATED = 'order.orderCreated',
+  ORDER_COMPLETED_FOR_GROUP = 'ORDER_COMPLETED_FOR_GROUP',
 }
+
+export const BOX_SIZE_CONFIG = (type: Temperature) => {
+  const sizes =
+    type === Temperature.Hot
+      ? {
+          big: 24,
+          medium: 6,
+          small: 4,
+        }
+      : {
+          big: 24,
+          medium: 12,
+          small: 4,
+        };
+  return sizes;
+};
+
+export const ADDONS_CAT = 'addons';

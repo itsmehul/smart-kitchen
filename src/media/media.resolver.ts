@@ -36,7 +36,7 @@ export class MediaResolver {
     @Args('input') uploadFileInput: UploadFileInput,
   ): Promise<UploadFileVariantsOutput> {
     try {
-      const [webUrl, printUrl, mobileUrl] = await Promise.all(
+      const [webImageUrl, printUrl, mobileImageUrl] = await Promise.all(
         [
           ['WEB', 'webp'],
           ['PRINT', 'jpg'],
@@ -50,7 +50,7 @@ export class MediaResolver {
       );
       return {
         ok: true,
-        uploadURLs: [webUrl, printUrl, mobileUrl],
+        uploadURLs: [webImageUrl, printUrl, mobileImageUrl],
       };
     } catch (error) {
       return {

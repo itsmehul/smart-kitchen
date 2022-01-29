@@ -11,16 +11,16 @@ const pubsub = new PubSub();
 @Global()
 @Module({
   imports: [
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'build'),
-      serveStaticOptions: {
-        setHeaders: (res) => {
-          res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
-          res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
-        },
-      },
-      exclude: ['/graphql'],
-    }),
+    // ServeStaticModule.forRoot({
+    //   rootPath: join(__dirname, '..', '..', 'build'),
+    //   serveStaticOptions: {
+    //     setHeaders: (res) => {
+    //       res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
+    //       res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
+    //     },
+    //   },
+    //   exclude: ['/graphql'],
+    // }),
   ],
 })
 export class CommonModule {

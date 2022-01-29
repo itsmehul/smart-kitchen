@@ -1,0 +1,23 @@
+[
+	{
+		"station" : null
+	},
+	{
+		"station" : "hotbowl"
+	},
+	{
+		"station" : "classic"
+	},
+	{
+		"station" : "salad"
+	},
+	{
+		"station" : "coldbowl"
+	},
+	{
+		"station" : "prepared_addons"
+	},
+	{
+		"station" : "addons"
+	}
+]

@@ -177,7 +177,7 @@ export class UserService {
     try {
       const user = await this.users.findOne(
         { email },
-        { select: ['id', 'password', 'role'], relations: ['shop'] },
+        { select: ['id', 'password', 'role'] },
       );
       if (!user) {
         throw 'User not found';

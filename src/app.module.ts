@@ -20,6 +20,31 @@ import { User } from './users/entities/user.entity';
 import { Verification } from './users/entities/verification.entity';
 import { UsersModule } from './users/users.module';
 import { EventEmitterModule } from '@nestjs/event-emitter';
+import { KitchenModule } from './kitchen/kitchen.module';
+import { MenuModule } from './menu/menu.module';
+import { RecipeModule } from './recipe/recipe.module';
+import { InventoryModule } from './inventory/inventory.module';
+import { Cookbook } from './recipe/entities/cookbook.entity';
+import { Step } from './recipe/entities/step.entity';
+import { Recipe } from './recipe/entities/recipe.entity';
+import { Ingredient } from './inventory/entities/ingredient.entity';
+import { Inventory } from './inventory/entities/inventory.entity';
+import { Storage } from './inventory/entities/storage.entity';
+import { Kitchen } from './kitchen/entities/kitchen.entity';
+import { Action } from './inventory/entities/action.entity';
+import { Menu } from './menu/entities/menu.entity';
+import { SupplierModule } from './supplier/supplier.module';
+import { Forecast } from './kitchen/entities/forecast.entity';
+import { Order } from './kitchen/entities/order.entity';
+import { DeliveryModule } from './delivery/delivery.module';
+import { TiramizooModule } from './tiramizoo/tiramizoo.module';
+import { TiramizooOrder } from './tiramizoo/entities/tiramizoo.entity';
+import { TiramizooPackage } from './tiramizoo/entities/package.entity';
+import { Box } from './delivery/entities/box.entity';
+import { Delivery } from './delivery/entities/delivery.entity';
+import { Category } from './recipe/entities/category.entity';
+import { Station } from './recipe/entities/station.entity';
+import { RecipeIngredient } from './recipe/entities/recipe_ingredient';
 
 @Module({
   // We add the module and call forRoot to pass configuration setting to root module of GQL
@@ -50,7 +75,28 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
       synchronize: process.env.NODE_ENV !== 'prod',
       logging:
         process.env.NODE_ENV !== 'prod' && process.env.NODE_ENV !== 'test',
-      entities: [User, Verification],
+      entities: [
+        User,
+        Verification,
+        Step,
+        Recipe,
+        Cookbook,
+        Ingredient,
+        Inventory,
+        Storage,
+        Kitchen,
+        Action,
+        Menu,
+        Forecast,
+        Order,
+        TiramizooOrder,
+        TiramizooPackage,
+        Box,
+        Delivery,
+        Category,
+        Station,
+        RecipeIngredient,
+      ],
     }),
     GraphQLModule.forRoot({
       installSubscriptionHandlers: true,
@@ -83,6 +129,13 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
     ScheduleModule.forRoot(),
     EventEmitterModule.forRoot(),
     SmsModule,
+    KitchenModule,
+    MenuModule,
+    RecipeModule,
+    InventoryModule,
+    SupplierModule,
+    DeliveryModule,
+    TiramizooModule,
   ],
   controllers: [],
   providers: [],
