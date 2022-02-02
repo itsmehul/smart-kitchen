@@ -1,3 +1,4 @@
+import { InternalServerErrorException } from '@nestjs/common';
 import {
   Field,
   InputType,
@@ -8,7 +9,7 @@ import { CoreEntity } from 'src/common/entities/core.entity';
 import { Box } from 'src/delivery/entities/box.entity';
 import { Delivery } from 'src/delivery/entities/delivery.entity';
 import { Recipe } from 'src/recipe/entities/recipe.entity';
-import { Column, Entity, JoinColumn, ManyToOne, OneToOne } from 'typeorm';
+import { BeforeInsert, Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { Kitchen } from './kitchen.entity';
 
 export enum OrderStatus {
@@ -20,6 +21,15 @@ export enum OrderStatus {
   delivered = 'delivered',
 }
 
+export const MOVEMENT_DIRECTION = [
+  OrderStatus.inKitchen,
+  OrderStatus.inProcessing,
+  OrderStatus.inCompleted,
+  OrderStatus.inPackaging,
+  OrderStatus.withDriver,
+  OrderStatus.delivered,
+];
+
 registerEnumType(OrderStatus, { name: 'OrderStatus' });
 
 // To determine the flow with a QR scanner we will need the recipeId and external_id
@@ -28,8 +38,8 @@ registerEnumType(OrderStatus, { name: 'OrderStatus' });
 @ObjectType()
 @Entity()
 export class Order extends CoreEntity {
-  @Field(() => String)
-  @Column()
+  @Field(() => String, { nullable: true })
+  @Column({ nullable: true })
   orderId: string;
 
   @Field(() => OrderStatus, { defaultValue: OrderStatus.inKitchen })
@@ -41,15 +51,34 @@ export class Order extends CoreEntity {
   kitchen?: Kitchen;
 
   @Field(() => Recipe)
-  @OneToOne(() => Recipe)
-  @JoinColumn()
+  @ManyToOne(() => Recipe, (recipe) => recipe.orders)
   recipe: Recipe;
 
   @Field(() => Delivery)
-  @ManyToOne(() => Delivery, (delivery) => delivery.orders)
+  @ManyToOne(() => Delivery, (delivery) => delivery.orders, {
+    cascade: true,
+    nullable: true,
+  })
   delivery?: Delivery;
+
+  @Field(() => String, { nullable: true })
+  @RelationId((order: Order) => order.recipe)
+  recipeId: string;
+
+  @Field(() => String, { nullable: true })
+  @RelationId((order: Order) => order.kitchen)
+  kitchenId: string;
 
   @Field(() => Box, { nullable: true })
   @ManyToOne(() => Box, (box) => box.orders)
   box?: Box;
+
+  @BeforeInsert()
+  async setStatusOnCreation(): Promise<void> {
+    try {
+      this.status = OrderStatus.inKitchen;
+    } catch (e) {
+      throw new InternalServerErrorException();
+    }
+  }
 }

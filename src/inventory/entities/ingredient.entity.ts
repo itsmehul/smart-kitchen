@@ -80,55 +80,42 @@ export class Ingredient extends CoreEntity {
   @Column({ nullable: true })
   mobileImageUrl: string;
 
-  @Field(() => Float, { description: 'Per gram' })
-  @Column({ type: 'decimal', precision: 10, scale: 2 })
+  @Field(() => Float, { description: 'Per unit' })
+  @Column({ type: 'float' })
   fats: number;
 
-  @Field(() => Float, { description: 'Per gram' })
-  @Column({ type: 'decimal', precision: 10, scale: 2 })
+  @Field(() => Float, { description: 'Per unit' })
+  @Column({ type: 'float' })
   carbohydrates: number;
 
-  @Field(() => Float, { description: 'Per gram' })
-  @Column({ type: 'decimal', precision: 10, scale: 2 })
+  @Field(() => Float, { description: 'Per unit' })
+  @Column({ type: 'float' })
   proteins: number;
 
-  @Field(() => Float, { description: 'Per gram' })
-  @Column({ type: 'decimal', precision: 10, scale: 2 })
+  @Field(() => Float, { description: 'Per unit' })
+  @Column({ type: 'float' })
   calories: number;
 
   @Field(() => Float, {
-    description:
-      'Get the best estimate of weight per ml. You can ignore this for pieces. Use weight/piece',
+    description: 'Density; Get the best estimate of weight(in grams) per unit.',
     nullable: true,
   })
   @Column({
-    type: 'decimal',
-    precision: 10,
-    scale: 2,
+    type: 'float',
     nullable: true,
     default: 20,
   })
-  weightPerMillitre: number;
+  weightPerUnit: number;
 
-  @Field(() => UnitType, { nullable: true })
-  @Column({ type: 'enum', enum: UnitType, nullable: true })
+  @Field(() => String, { nullable: true })
+  @Column({ type: 'enum', enum: UnitType, nullable: true, default: UnitType.g })
   unit: UnitType;
 
-  @Field(() => Float, {
-    description: 'Get the weight per piece',
-    nullable: true,
-  })
-  @Column({
-    type: 'decimal',
-    precision: 10,
-    scale: 2,
-    nullable: true,
-    default: 20,
-  })
-  weightPerPiece: number;
-
   @Field(() => [Inventory])
-  @OneToMany(() => Inventory, (inventory) => inventory.ingredient)
+  @OneToMany(() => Inventory, (inventory) => inventory.ingredient, {
+    cascade: true,
+    eager: true,
+  })
   inventories: Inventory[];
 
   @Field(() => [String])

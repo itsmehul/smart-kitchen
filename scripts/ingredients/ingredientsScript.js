@@ -25,7 +25,15 @@ transformedDishes = sjson.map(ing=>({
         return;
       })
     : [],
+  unit: ing.unit,
 
+  inventories:[{...ing.inventory[0], expiry: 
+  new Date(new Date().getTime() + Math.random() * (new Date(2022, 2, 2).getTime() - new Date().getTime())),
+  qty: Number((Math.floor(Math.random() * (10000 - 1000) + 1000)).toFixed(0)),
+  pricePerUnit: Number((Math.random() * (0.1 - 0.005) + 0.005).toFixed(2)),
+  
+
+}]
 }))
 
 // .reduce((a,b) => ({
@@ -33,7 +41,7 @@ transformedDishes = sjson.map(ing=>({
 //   [b.name]: b.id
 // }),{});
 
-fs.writeFile('parsedIngredients.json', JSON.stringify(transformedDishes), () => {
+fs.writeFile('./ingredients/parsedIngredients.js', JSON.stringify(transformedDishes), () => {
   console.log('fone');
 });
 

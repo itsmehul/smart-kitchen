@@ -24,7 +24,10 @@ export class RecipeIngredient extends CoreEntity {
   })
   subRecipe: Recipe;
 
-  @Field(() => Float, { nullable: true })
+  @Field(() => Float, {
+    nullable: true,
+    description: 'The unit is inherited from ingredient',
+  })
   @Column({ type: 'float' })
   qty: number;
 

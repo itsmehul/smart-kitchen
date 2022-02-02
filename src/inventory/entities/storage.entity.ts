@@ -6,7 +6,7 @@ import {
 } from '@nestjs/graphql';
 import { CoreEntity } from 'src/common/entities/core.entity';
 import { Kitchen } from 'src/kitchen/entities/kitchen.entity';
-import { Column, Entity, ManyToOne, OneToMany } from 'typeorm';
+import { Column, Entity, ManyToOne, OneToMany, RelationId } from 'typeorm';
 import { Inventory } from './inventory.entity';
 
 export enum StorageType {
@@ -35,4 +35,7 @@ export class Storage extends CoreEntity {
   @Field(() => Kitchen, { nullable: true })
   @ManyToOne(() => Kitchen, (kitchen) => kitchen.storages)
   kitchen?: Kitchen;
+
+  @RelationId((storage: Storage) => storage.kitchen)
+  kitchenId?: string;
 }

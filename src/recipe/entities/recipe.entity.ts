@@ -8,6 +8,7 @@ import {
 import { CoreEntity } from 'src/common/entities/core.entity';
 import { Inventory } from 'src/inventory/entities/inventory.entity';
 import { Forecast } from 'src/kitchen/entities/forecast.entity';
+import { Order } from 'src/kitchen/entities/order.entity';
 import { Menu } from 'src/menu/entities/menu.entity';
 import {
   Column,
@@ -66,7 +67,9 @@ export class Recipe extends CoreEntity {
   cookbook: Cookbook;
 
   @Field(() => [Inventory])
-  @OneToMany(() => Inventory, (inventory) => inventory.ingredient)
+  @OneToMany(() => Inventory, (inventory) => inventory.ingredient, {
+    eager: true,
+  })
   inventories: Inventory[];
 
   @Field(() => [Menu], { nullable: true })
@@ -84,6 +87,10 @@ export class Recipe extends CoreEntity {
   @Field(() => [Forecast], { nullable: true })
   @OneToMany(() => Forecast, (forecast) => forecast.recipe)
   forecasts?: Forecast[];
+
+  @Field(() => [Order], { nullable: true })
+  @OneToMany(() => Order, (order) => order.recipe)
+  orders?: Order[];
 
   @Field(() => Category, { nullable: true })
   @ManyToOne(() => Category, (category) => category.recipes, {

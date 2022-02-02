@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { DateTime } from 'luxon';
 import { Action } from 'src/inventory/entities/action.entity';
 import { Ingredient } from 'src/inventory/entities/ingredient.entity';
 import { Repository } from 'typeorm';
@@ -65,6 +66,9 @@ export class RecipeService {
 
   async getRecipes(): Promise<RecipesOutput> {
     const recipes = await this.recipe.find({
+      where: {
+        id: '5fc698c2-c88b-40a9-870d-4252521076a7',
+      },
       relations: [
         'cookbook',
         'cookbook.steps',
@@ -74,13 +78,62 @@ export class RecipeService {
         'cookbook.recipeIngredients',
         'cookbook.recipeIngredients.ingredient',
         'cookbook.recipeIngredients.subRecipe',
+        'cookbook.recipeIngredients.subRecipe.cookbook',
         'station',
         'category',
       ],
     });
+
+    const getIsRecipeAvailable = (recipe: Recipe) => {
+      let availableStock = true;
+      const getStockFromRecipeIngredients = (
+        recipeIngredients: RecipeIngredient[],
+        parentQty,
+      ) => {
+        for (const recipeIng of recipeIngredients) {
+          if (recipeIng?.ingredient) {
+            const inventories = recipeIng.ingredient.inventories.filter(
+              (inv) =>
+                inv.storage.kitchenId ===
+                  '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+                DateTime.fromISO(inv.expiry) > DateTime.now(),
+            );
+            const availableQty = inventories.reduce((a, b) => a + b.qty, 0);
+            if (availableQty < recipeIng.qty * parentQty) {
+              availableStock = false;
+            }
+          } else if (recipeIng?.subRecipe?.cookbook?.recipeIngredients) {
+            if (recipeIng.subRecipe.inventories.length > 0) {
+              const inventories = recipeIng.subRecipe.inventories.filter(
+                (inv) =>
+                  inv.storage.kitchenId ===
+                    '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+                  DateTime.fromISO(inv.expiry) > DateTime.now(),
+              );
+              const availableQty = inventories.reduce((a, b) => a + b.qty, 0);
+              if (availableQty < recipeIng.qty * parentQty) {
+                availableStock = false;
+              }
+            } else {
+              getStockFromRecipeIngredients(
+                recipeIng.subRecipe.cookbook.recipeIngredients,
+                recipeIng.qty,
+              );
+            }
+          }
+        }
+      };
+      getStockFromRecipeIngredients(recipe.cookbook.recipeIngredients, 1);
+      return availableStock;
+    };
+
+    const filteredRecipes = recipes.filter((recipe) =>
+      getIsRecipeAvailable(recipe),
+    );
+
     return {
       ok: true,
-      recipes,
+      recipes: filteredRecipes,
     };
   }
 

@@ -2,6 +2,7 @@ import { Field, InputType, ObjectType } from '@nestjs/graphql';
 import { CoreEntity } from 'src/common/entities/core.entity';
 import { Column, Entity, OneToMany } from 'typeorm';
 import { Storage } from '../../inventory/entities/storage.entity';
+import { Forecast } from './forecast.entity';
 import { Order } from './order.entity';
 
 @InputType('KitchenInputType', { isAbstract: true })
@@ -17,7 +18,9 @@ export class Kitchen extends CoreEntity {
   cutoffTime: Date;
 
   @Field(() => [Storage], { nullable: true })
-  @OneToMany(() => Storage, (storage) => storage.kitchen)
+  @OneToMany(() => Storage, (storage) => storage.kitchen, {
+    cascade: ['insert'],
+  })
   storages?: Storage[];
 
   @Field(() => String)
@@ -39,4 +42,8 @@ export class Kitchen extends CoreEntity {
   @Field(() => [Order], { nullable: true })
   @OneToMany(() => Order, (order) => order.kitchen)
   orders?: Order[];
+
+  @Field(() => [Forecast], { nullable: true })
+  @OneToMany(() => Forecast, (forecast) => forecast.kitchen)
+  forecasts?: Forecast[];
 }

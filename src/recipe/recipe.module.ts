@@ -10,6 +10,7 @@ import { Station } from './entities/station.entity';
 import { Step } from './entities/step.entity';
 import {
   CategoryResolver,
+  CookbookResolver,
   RecipeResolver,
   StationResolver,
 } from './recipe.resolver';
@@ -28,7 +29,13 @@ import { RecipeService } from './recipe.service';
       Action,
     ]),
   ],
-  providers: [RecipeService, CategoryResolver, StationResolver, RecipeResolver],
+  providers: [
+    RecipeService,
+    CategoryResolver,
+    StationResolver,
+    RecipeResolver,
+    CookbookResolver,
+  ],
   exports: [
     // RecipeService
   ],

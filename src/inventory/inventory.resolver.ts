@@ -1,9 +1,10 @@
-import { Args, Mutation, Resolver } from '@nestjs/graphql';
+import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { CoreOutput } from 'src/common/dtos/output.dto';
 import { BulkCreateActionOutput, CreateActionInput } from './dtos/action.dto';
 import {
   BulkCreateIngredientOutput,
   CreateIngredientInput,
+  IngredientsOutput,
 } from './dtos/ingredient.dto';
 import { Action } from './entities/action.entity';
 import { Ingredient } from './entities/ingredient.entity';
@@ -43,12 +44,17 @@ export class IngredientResolver {
   }
 
   @Mutation(() => BulkCreateIngredientOutput)
-  async createBulkIngredient(
+  createBulkIngredient(
     // @AuthUser() authUser: User,
     @Args({ name: 'input', type: () => [CreateIngredientInput] })
     input: CreateIngredientInput[],
   ): Promise<BulkCreateIngredientOutput> {
     return this.inventoryService.bulkCreateIngredient(input);
+  }
+
+  @Query(() => IngredientsOutput)
+  getIngredients(): Promise<IngredientsOutput> {
+    return this.inventoryService.getIngredients();
   }
 }
 

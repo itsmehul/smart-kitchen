@@ -38,6 +38,10 @@ export class Step extends CoreEntity {
   @Column({ type: 'float', nullable: true })
   qty: number;
 
+  @Field(() => Float, { nullable: true })
+  @Column({ type: 'float', nullable: true, default: 1 })
+  yield: number;
+
   @Field(() => Step, { nullable: true })
   @ManyToOne(() => Step, (Step) => Step.childStep)
   parentStep: Step;

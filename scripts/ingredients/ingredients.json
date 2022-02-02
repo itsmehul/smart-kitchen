@@ -8,7 +8,12 @@
 		"protein" : 7.91,
 		"carbohydrates" : 13.82,
 		"totalCalories" : 768.8499999999999,
-		"allergens" : "[{\"name\": \"Nuts\", \"value\": \"Nuts\"}]"
+		"allergens" : "[{\"name\": \"Nuts\", \"value\": \"Nuts\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0169c609-f578-4889-87ad-0e4e18e6c242",
@@ -19,7 +24,12 @@
 		"protein" : 24.2,
 		"carbohydrates" : 0.8,
 		"totalCalories" : 124.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0230514d-0844-4cb7-bc53-413c514bac22",
@@ -30,7 +40,12 @@
 		"protein" : 1.43,
 		"carbohydrates" : 7.37,
 		"totalCalories" : 36.64,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0299ea7e-59f1-4aa7-815f-3b4af77a9378",
@@ -41,7 +56,12 @@
 		"protein" : 25,
 		"carbohydrates" : 0.6,
 		"totalCalories" : 390.4,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "02a7cc08-5a17-4017-8a4e-dd129c7aba36",
@@ -52,7 +72,12 @@
 		"protein" : 3,
 		"carbohydrates" : 8.1,
 		"totalCalories" : 66,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "03fa55f8-c235-4dc1-981d-5ee9c5f1af2d",
@@ -63,7 +88,12 @@
 		"protein" : 2.05,
 		"carbohydrates" : 17.49,
 		"totalCalories" : 78.97,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "04728b38-5201-423f-a42f-2ca5eb424e9f",
@@ -74,7 +104,12 @@
 		"protein" : 0.91,
 		"carbohydrates" : 9.54,
 		"totalCalories" : 44.05,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "083f518e-7bd9-43e1-9bf0-e88eac83ab4f",
@@ -85,7 +120,12 @@
 		"protein" : 1.67,
 		"carbohydrates" : 18.7,
 		"totalCalories" : 92.00999999999999,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "09bcb080-a36e-4296-b2a2-1e7c912eb767",
@@ -96,7 +136,12 @@
 		"protein" : 0.93,
 		"carbohydrates" : 9.58,
 		"totalCalories" : 44.2,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0b0a4ce1-93e1-453f-bad9-c2bd94140dbb",
@@ -107,7 +152,12 @@
 		"protein" : 3.46,
 		"carbohydrates" : 7.02,
 		"totalCalories" : 52,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0c44c7db-4ac3-4785-bf1f-ba65a657969b",
@@ -118,7 +168,12 @@
 		"protein" : 1,
 		"carbohydrates" : 6.5,
 		"totalCalories" : 30.9,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0c60e005-1968-4967-9b95-0ca4e4272802",
@@ -129,7 +184,12 @@
 		"protein" : 9.2,
 		"carbohydrates" : 7.1,
 		"totalCalories" : 112.9,
-		"allergens" : "[\"wheat\", \" soybean\"]"
+		"allergens" : "[\"wheat\", \" soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "0e445fcb-3b36-4dfe-a09d-48976f55c81e",
@@ -140,7 +200,12 @@
 		"protein" : 0.6,
 		"carbohydrates" : 5.1,
 		"totalCalories" : 45.3,
-		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "10f83d14-aa9b-4ad4-918f-f9f08c06832a",
@@ -151,7 +216,12 @@
 		"protein" : 14.21,
 		"carbohydrates" : 4.09,
 		"totalCalories" : 264.72,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "111abd8d-31e5-4134-bc2a-17bc5586b2b0",
@@ -162,7 +232,12 @@
 		"protein" : 13.46,
 		"carbohydrates" : 49.7,
 		"totalCalories" : 381.15999999999997,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "123c8ebe-4621-4660-bc09-591401f32b48",
@@ -173,7 +248,12 @@
 		"protein" : 1.1,
 		"carbohydrates" : 3.6,
 		"totalCalories" : 18.8,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "17d53457-a505-457b-b4fb-7745923f99d1",
@@ -184,7 +264,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "196efacf-f8da-4aee-b672-fe7bc596880e",
@@ -195,7 +280,12 @@
 		"protein" : 11,
 		"carbohydrates" : 0.5,
 		"totalCalories" : 298,
-		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}]"
+		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "1bfa560e-e782-40dd-9e81-e1e186920795",
@@ -206,7 +296,12 @@
 		"protein" : 6.4,
 		"carbohydrates" : 4,
 		"totalCalories" : 121.70000000000002,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "1d12043d-aac5-4167-9ffe-389b2f51be58",
@@ -217,7 +312,12 @@
 		"protein" : 12.76,
 		"carbohydrates" : 4.98,
 		"totalCalories" : 187.06,
-		"allergens" : "[\"Beef\", \" Potatoes Flour\", \" Salt\", \" Chickpeas Flour\", \" Carrots\", \" Olive Oil\"]"
+		"allergens" : "[\"Beef\", \" Potatoes Flour\", \" Salt\", \" Chickpeas Flour\", \" Carrots\", \" Olive Oil\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "1d14f4c7-d08e-46dc-9502-3b807795306f",
@@ -228,7 +328,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "1dbeff8f-cf02-48db-93be-05af5505d6f1",
@@ -239,7 +344,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "1f0f3bf9-fb2b-4174-92ae-fcc6f23f8687",
@@ -250,7 +360,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "20f95717-fb71-4274-8790-32e5d1a88117",
@@ -261,7 +376,12 @@
 		"protein" : 2,
 		"carbohydrates" : 5,
 		"totalCalories" : 28,
-		"allergens" : "[\"soybean\"]"
+		"allergens" : "[\"soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "21b04ac6-76a2-4481-ab6f-5731e1ff98ee",
@@ -272,7 +392,12 @@
 		"protein" : 6,
 		"carbohydrates" : 17,
 		"totalCalories" : 94.7,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2292afc5-cf96-478c-9ec2-1a6dd5cdf791",
@@ -283,7 +408,12 @@
 		"protein" : 6.5,
 		"carbohydrates" : 6.4,
 		"totalCalories" : 120,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "22cea7c0-fe7c-4fc0-a319-36a54ad3c81f",
@@ -294,7 +424,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "246425dc-a28b-4ff5-b76e-65411e44eac1",
@@ -305,7 +440,12 @@
 		"protein" : 0.54,
 		"carbohydrates" : 13.12,
 		"totalCalories" : 55.72,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2923e814-462a-46f3-9377-122cff4d7248",
@@ -316,7 +456,12 @@
 		"protein" : 0.2,
 		"carbohydrates" : 4.2,
 		"totalCalories" : 78.8,
-		"allergens" : "[\"celery\"]"
+		"allergens" : "[\"celery\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "296eb8ea-76e5-4c0a-9a6b-6bf7a7c9f738",
@@ -327,7 +472,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2a6ec625-2641-4857-8fc0-b4ecf4efb045",
@@ -338,7 +488,12 @@
 		"protein" : 5.4,
 		"carbohydrates" : 26.7,
 		"totalCalories" : 165.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2b3b6562-a4f4-4a7b-811b-c7f79a639e11",
@@ -349,7 +504,12 @@
 		"protein" : 1.8,
 		"carbohydrates" : 3.74,
 		"totalCalories" : 23.96,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2bde91b9-6d31-41f7-8e5d-bead4e7a7e87",
@@ -360,7 +520,12 @@
 		"protein" : 1.03,
 		"carbohydrates" : 3.84,
 		"totalCalories" : 157.36,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "2e6da1ec-bff5-4a19-8fa1-ef018f5aa6c9",
@@ -371,7 +536,12 @@
 		"protein" : 4,
 		"carbohydrates" : 31,
 		"totalCalories" : 860,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "332f333e-2025-46fb-9c3b-302e792e0349",
@@ -382,7 +552,12 @@
 		"protein" : 10.1,
 		"carbohydrates" : 45.6,
 		"totalCalories" : 295.7,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "33fc4822-d878-4057-b53c-8dc5129b7eb2",
@@ -393,7 +568,12 @@
 		"protein" : 1.1,
 		"carbohydrates" : 9.34,
 		"totalCalories" : 42.66,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "34a3cbe4-c2a3-4f54-8a20-12f1440daf1d",
@@ -404,7 +584,12 @@
 		"protein" : 0.27,
 		"carbohydrates" : 12.8,
 		"totalCalories" : 53.45,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "35e8c1e5-701e-4d80-af7b-dbddb7f72d63",
@@ -415,7 +600,12 @@
 		"protein" : 0.96,
 		"carbohydrates" : 0.57,
 		"totalCalories" : 679.77,
-		"allergens" : "[\"Egg\"]"
+		"allergens" : "[\"Egg\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "360cb49a-00ef-4ff0-99f5-fded4026a230",
@@ -426,7 +616,12 @@
 		"protein" : 25.19,
 		"carbohydrates" : 16.54,
 		"totalCalories" : 605.67,
-		"allergens" : "[\"nuts\"]"
+		"allergens" : "[\"nuts\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "361dc16b-9f3b-4905-9946-85ede1afefd3",
@@ -437,7 +632,12 @@
 		"protein" : 0,
 		"carbohydrates" : 24,
 		"totalCalories" : 116.7,
-		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]"
+		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "378128cc-c9a1-4e66-b403-942219892d70",
@@ -448,7 +648,12 @@
 		"protein" : 14.11,
 		"carbohydrates" : 55.76,
 		"totalCalories" : 306.21,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "38e83e23-1bcd-4a68-bf0d-356190156e21",
@@ -459,7 +664,12 @@
 		"protein" : 1.4,
 		"carbohydrates" : 2.4,
 		"totalCalories" : 138.5,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "399f135b-39f6-43a7-8687-7944807eab4f",
@@ -470,7 +680,12 @@
 		"protein" : 0.98,
 		"carbohydrates" : 5.88,
 		"totalCalories" : 29.06,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3a23dc26-0de8-4b6c-a936-7fea6a323dbb",
@@ -481,7 +696,12 @@
 		"protein" : 28.42,
 		"carbohydrates" : 13.9,
 		"totalCalories" : 419.84000000000003,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3a8672ab-ed72-4a1a-b69f-8ed85dde217e",
@@ -492,7 +712,12 @@
 		"protein" : 12.68,
 		"carbohydrates" : 4.39,
 		"totalCalories" : 158.19,
-		"allergens" : "[\"soybean\"]"
+		"allergens" : "[\"soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3c67645a-89e5-4131-a162-61ee9c60f671",
@@ -503,7 +728,12 @@
 		"protein" : 17,
 		"carbohydrates" : 42,
 		"totalCalories" : 512.66,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3cb2ab60-8752-4528-9b79-85abc09e787c",
@@ -514,7 +744,12 @@
 		"protein" : 8.2,
 		"carbohydrates" : 15.2,
 		"totalCalories" : 218.7,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3e37618b-46f7-4695-bd98-0a54d77eae67",
@@ -525,7 +760,12 @@
 		"protein" : 29.13,
 		"carbohydrates" : 0,
 		"totalCalories" : 190.41000000000003,
-		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]"
+		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "3f5f905e-3fd3-4a99-8cb6-f249ca613095",
@@ -536,7 +776,12 @@
 		"protein" : 2,
 		"carbohydrates" : 10,
 		"totalCalories" : 75,
-		"allergens" : "[{}, {}, {}]"
+		"allergens" : "[{}, {}, {}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "40aaf0b5-82c7-4ea4-86fd-2408bdff0334",
@@ -547,7 +792,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0.04,
 		"totalCalories" : 0.16,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "420a26e5-da83-4ea9-bfff-9af14f336f62",
@@ -558,7 +808,12 @@
 		"protein" : 2,
 		"carbohydrates" : 19,
 		"totalCalories" : 678,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4488de63-0dd1-446c-9d94-32fb3752a69d",
@@ -569,7 +824,12 @@
 		"protein" : 51.1,
 		"carbohydrates" : 22.9,
 		"totalCalories" : 446.29999999999995,
-		"allergens" : "[\"celery\"]"
+		"allergens" : "[\"celery\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "44a40418-97b7-4751-877e-887c60767c7b",
@@ -580,7 +840,12 @@
 		"protein" : 1.83,
 		"carbohydrates" : 6.97,
 		"totalCalories" : 37.18,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "44f59530-dd6a-4c9b-b3ac-3f04dee7c3dd",
@@ -591,7 +856,12 @@
 		"protein" : 0.5,
 		"carbohydrates" : 3.7,
 		"totalCalories" : 619.8,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "458306eb-330e-4d79-8dee-61c55c30d5c4",
@@ -602,7 +872,12 @@
 		"protein" : 0.36,
 		"carbohydrates" : 16.1,
 		"totalCalories" : 66.65,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "46d80c0c-8e1a-4811-8827-076415480a0c",
@@ -613,7 +888,12 @@
 		"protein" : 6.9,
 		"carbohydrates" : 29.6,
 		"totalCalories" : 222.5,
-		"allergens" : "[\"milk\", \" egg\", \" fish\", \" gluten\", \" moluscs\"]"
+		"allergens" : "[\"milk\", \" egg\", \" fish\", \" gluten\", \" moluscs\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "47e66274-6bae-462e-93d2-d03be17d8d31",
@@ -624,7 +904,12 @@
 		"protein" : 3.4,
 		"carbohydrates" : 5.1,
 		"totalCalories" : 48.4,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "488fc7a4-c48c-4e65-8620-89d0ba6fce14",
@@ -635,7 +920,12 @@
 		"protein" : 5.9,
 		"carbohydrates" : 13,
 		"totalCalories" : 122.4,
-		"allergens" : "[\"milk\", \" egg\", \" wheat\", \" celery\"]"
+		"allergens" : "[\"milk\", \" egg\", \" wheat\", \" celery\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "48c5432b-a17e-4441-81e0-31d7c9100889",
@@ -646,7 +936,12 @@
 		"protein" : 17,
 		"carbohydrates" : 14,
 		"totalCalories" : 134.8,
-		"allergens" : "[\"wheat\", \" pork\"]"
+		"allergens" : "[\"wheat\", \" pork\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "490044c8-de64-4cb0-b568-a19a4d0d41e2",
@@ -657,7 +952,12 @@
 		"protein" : 7.5,
 		"carbohydrates" : 4.8,
 		"totalCalories" : 95.10000000000001,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4a41e442-2a0f-40cd-900b-311980a8fcb0",
@@ -668,7 +968,12 @@
 		"protein" : 2.84,
 		"carbohydrates" : 2.74,
 		"totalCalories" : 347.03999999999996,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4ad2da99-6976-45d1-88b4-4d9e9f6a75fd",
@@ -679,7 +984,12 @@
 		"protein" : 2.58,
 		"carbohydrates" : 3.65,
 		"totalCalories" : 30.86,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4b5ed248-6a21-4cba-a878-7f7da6916ecd",
@@ -690,7 +1000,12 @@
 		"protein" : 1.7,
 		"carbohydrates" : 5,
 		"totalCalories" : 26.8,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4d659970-c514-4654-b563-8d81c3c76ced",
@@ -701,7 +1016,12 @@
 		"protein" : 5.77,
 		"carbohydrates" : 30.68,
 		"totalCalories" : 154.07999999999998,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4ed0a4b5-ba91-4f8a-aff4-0a8c3a11727f",
@@ -712,7 +1032,12 @@
 		"protein" : 17.73,
 		"carbohydrates" : 23.45,
 		"totalCalories" : 611.75,
-		"allergens" : "[\"sesame seeds\"]"
+		"allergens" : "[\"sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4f4b244f-d884-4eef-ab17-c2f51c5ccf3d",
@@ -723,7 +1048,12 @@
 		"protein" : 5.22,
 		"carbohydrates" : 13.62,
 		"totalCalories" : 78.96,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "4f777eed-23ea-41a8-b443-ab9c7e830c90",
@@ -734,7 +1064,12 @@
 		"protein" : 1,
 		"carbohydrates" : 10.4,
 		"totalCalories" : 122.1,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "516b8f18-48ef-4408-bdf8-b620ce1e6ba8",
@@ -745,7 +1080,12 @@
 		"protein" : 7.3,
 		"carbohydrates" : 11.13,
 		"totalCalories" : 397.71999999999997,
-		"allergens" : "[\"wheat\", \" nut\", \" soybean\", \" sesame seeds\"]"
+		"allergens" : "[\"wheat\", \" nut\", \" soybean\", \" sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "51815a66-5eb0-4781-ba44-81e704380f6d",
@@ -756,7 +1096,12 @@
 		"protein" : 0.5,
 		"carbohydrates" : 15,
 		"totalCalories" : 62,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5543dbdb-7fb4-4fd2-9852-342a6e8aed01",
@@ -767,7 +1112,12 @@
 		"protein" : 17.6,
 		"carbohydrates" : 1.3,
 		"totalCalories" : 238.5,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "58cfd87f-8f83-4914-b4e3-9f95bed4bb9b",
@@ -778,7 +1128,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "58f0d758-1a43-457d-a062-25bc29f2b53f",
@@ -789,7 +1144,12 @@
 		"protein" : 12.6,
 		"carbohydrates" : 0.7,
 		"totalCalories" : 138.70000000000002,
-		"allergens" : "[{\"name\": \"Egg\", \"value\": \"Egg\"}]"
+		"allergens" : "[{\"name\": \"Egg\", \"value\": \"Egg\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5968d22c-db3f-46a2-992b-87e8213ca566",
@@ -800,7 +1160,12 @@
 		"protein" : 1.1,
 		"carbohydrates" : 2.2,
 		"totalCalories" : 14.100000000000001,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5969205a-07cf-451d-9e01-db04cb2c2fd3",
@@ -811,7 +1176,12 @@
 		"protein" : 1.57,
 		"carbohydrates" : 20.12,
 		"totalCalories" : 87.21000000000001,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5b8e86a0-a6d9-4485-8ab1-33d90a84942d",
@@ -822,7 +1192,12 @@
 		"protein" : 3.27,
 		"carbohydrates" : 18.7,
 		"totalCalories" : 100.03,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5c1e457f-bc60-43c1-85d6-796042394226",
@@ -833,7 +1208,12 @@
 		"protein" : 8,
 		"carbohydrates" : 7,
 		"totalCalories" : 582,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5c2b39c6-f636-4f2b-bedb-4c87541d1baf",
@@ -844,7 +1224,12 @@
 		"protein" : 11.22,
 		"carbohydrates" : 7.61,
 		"totalCalories" : 117.89000000000001,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "5cef84b7-3fb8-4886-b49d-839e96d67075",
@@ -855,7 +1240,12 @@
 		"protein" : 28,
 		"carbohydrates" : 1.7,
 		"totalCalories" : 397.8,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6037c5f2-4877-4581-a518-7435ec7bdf1b",
@@ -866,7 +1256,12 @@
 		"protein" : 9.91,
 		"carbohydrates" : 77.72,
 		"totalCalories" : 360.96,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "62db9466-bb3f-4073-8ddc-78a0cc02a676",
@@ -877,7 +1272,12 @@
 		"protein" : 1.61,
 		"carbohydrates" : 9.56,
 		"totalCalories" : 46.21,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "632f669f-29f8-4e6d-b2ef-3646f413667f",
@@ -888,7 +1288,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "632fe1b9-75a5-4414-9061-77da923cadbc",
@@ -899,7 +1304,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6393838a-f7cb-4cfa-b653-d53ef6a3c2a8",
@@ -910,7 +1320,12 @@
 		"protein" : 6.4,
 		"carbohydrates" : 44.4,
 		"totalCalories" : 257.2,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6398f3c2-833c-448e-bd6b-1b1a7b3d35fa",
@@ -921,7 +1336,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 900,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "64481bcb-95ca-4bd1-ad1a-d5b88f99aea6",
@@ -932,7 +1352,12 @@
 		"protein" : 5.4,
 		"carbohydrates" : 4.5,
 		"totalCalories" : 97.2,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "64d0966e-de25-4591-afde-f60fec3ea000",
@@ -943,7 +1368,12 @@
 		"protein" : 4.2,
 		"carbohydrates" : 33,
 		"totalCalories" : 152.4,
-		"allergens" : "[\"milk\", \" egg\", \" wheat\"]"
+		"allergens" : "[\"milk\", \" egg\", \" wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "65443b97-aa8f-4916-9ec4-70ef8acfb0f8",
@@ -954,7 +1384,12 @@
 		"protein" : 25.9,
 		"carbohydrates" : 7.1,
 		"totalCalories" : 155.4,
-		"allergens" : "[\"wheat\"]"
+		"allergens" : "[\"wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "65b2c1e8-5323-42ec-9844-b7d5da10e33d",
@@ -965,7 +1400,12 @@
 		"protein" : 1.1,
 		"carbohydrates" : 9.4,
 		"totalCalories" : 42.900000000000006,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "66227c35-eb6d-4abb-8fb4-67718f503860",
@@ -976,7 +1416,12 @@
 		"protein" : 8.5,
 		"carbohydrates" : 21,
 		"totalCalories" : 168.4,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "66ab82e5-1d2d-491c-b92b-67a2a26a4481",
@@ -987,7 +1432,12 @@
 		"protein" : 0.3,
 		"carbohydrates" : 21,
 		"totalCalories" : 96,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6a40b46a-9a42-458c-9e6d-db14c6377cdc",
@@ -998,7 +1448,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6c69b39c-7a3c-4127-95a0-ad9044cb9b8e",
@@ -1009,7 +1464,12 @@
 		"protein" : 3.09,
 		"carbohydrates" : 3.26,
 		"totalCalories" : 28.46,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6d67c5a3-6207-46b6-9e30-eea934e6b554",
@@ -1020,7 +1480,12 @@
 		"protein" : 12.76,
 		"carbohydrates" : 4.98,
 		"totalCalories" : 187.06,
-		"allergens" : "[\"wheat\"]"
+		"allergens" : "[\"wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6d9d0678-aaef-468a-ab15-0dbb9e617d30",
@@ -1031,7 +1496,12 @@
 		"protein" : 3,
 		"carbohydrates" : 0,
 		"totalCalories" : 21,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6fc7bb01-ad8a-4748-851a-1d4ec9ea854d",
@@ -1042,7 +1512,12 @@
 		"protein" : 7.04,
 		"carbohydrates" : 22.87,
 		"totalCalories" : 141.87,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "6ffca9bc-2642-4005-ab15-94410977cc07",
@@ -1053,7 +1528,12 @@
 		"protein" : 12.68,
 		"carbohydrates" : 4.39,
 		"totalCalories" : 158.19,
-		"allergens" : "[\"soybean\"]"
+		"allergens" : "[\"soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "70d13127-79e7-4ad8-8374-28051cb44d5f",
@@ -1064,7 +1544,12 @@
 		"protein" : 14.12,
 		"carbohydrates" : 64.16,
 		"totalCalories" : 367.75,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "72c831e1-2cbf-4057-a7be-7eddc968017b",
@@ -1075,7 +1560,12 @@
 		"protein" : 13,
 		"carbohydrates" : 20,
 		"totalCalories" : 267,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}, {\"name\": \"Wheat\", \"value\": \"Wheat\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "732fd579-4937-4937-ad92-9bc61f3dd85b",
@@ -1086,7 +1576,12 @@
 		"protein" : 0,
 		"carbohydrates" : 3,
 		"totalCalories" : 444,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "774c4d70-05bd-4a35-abe9-1604c0d9649c",
@@ -1097,7 +1592,12 @@
 		"protein" : 1.24,
 		"carbohydrates" : 7.3,
 		"totalCalories" : 35.96,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7806a2d3-8aeb-42c7-b041-0bd76659f274",
@@ -1108,7 +1608,12 @@
 		"protein" : 3.5,
 		"carbohydrates" : 6.5,
 		"totalCalories" : 75.1,
-		"allergens" : "[\"milk\", \" soybean\"]"
+		"allergens" : "[\"milk\", \" soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7831808c-77c2-422c-950d-5ad3bc050d39",
@@ -1119,7 +1624,12 @@
 		"protein" : 1,
 		"carbohydrates" : 6.5,
 		"totalCalories" : 30.9,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "792d0d10-58a4-4127-9980-e2e96ee149e5",
@@ -1130,7 +1640,12 @@
 		"protein" : 6,
 		"carbohydrates" : 13,
 		"totalCalories" : 82.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7bdf0992-860b-4b61-a23f-8ea66b4d9806",
@@ -1141,7 +1656,12 @@
 		"protein" : 3.2,
 		"carbohydrates" : 18,
 		"totalCalories" : 90.2,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7d4c83b7-26f7-4626-8691-77daddd31bde",
@@ -1152,7 +1672,12 @@
 		"protein" : 8.1,
 		"carbohydrates" : 15.9,
 		"totalCalories" : 176.1,
-		"allergens" : "[\"milk\", \" wheat\", \" soybean\"]"
+		"allergens" : "[\"milk\", \" wheat\", \" soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7df17228-7896-4274-9841-90b362297478",
@@ -1163,7 +1688,12 @@
 		"protein" : 3.6,
 		"carbohydrates" : 3.4,
 		"totalCalories" : 32.5,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "7e4a6838-dc26-411b-863b-238687112975",
@@ -1174,7 +1704,12 @@
 		"protein" : 1.4,
 		"carbohydrates" : 7.8,
 		"totalCalories" : 66.5,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "820ce17f-8470-4839-9bbf-be1ede851f44",
@@ -1185,7 +1720,12 @@
 		"protein" : 7,
 		"carbohydrates" : 72.7,
 		"totalCalories" : 344,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "8556f077-868e-4a49-a23a-fd9b560cf054",
@@ -1196,7 +1736,12 @@
 		"protein" : 0.4,
 		"carbohydrates" : 28.7,
 		"totalCalories" : 116.39999999999999,
-		"allergens" : "[\"soybean\"]"
+		"allergens" : "[\"soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "877cb4b5-5756-4d78-af4e-ec6fd8f0f2de",
@@ -1207,7 +1752,12 @@
 		"protein" : 22,
 		"carbohydrates" : 1.9,
 		"totalCalories" : 325.1,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "87ae615e-d7d9-40cd-8003-4af2c2b4b59c",
@@ -1218,7 +1768,12 @@
 		"protein" : 5.7,
 		"carbohydrates" : 31,
 		"totalCalories" : 180.10000000000002,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Celery\", \"value\": \"Celery\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "87e6e7f9-edad-4ba1-8032-17493ffbda38",
@@ -1229,7 +1784,12 @@
 		"protein" : 3.6,
 		"carbohydrates" : 22,
 		"totalCalories" : 237.4,
-		"allergens" : "[\"soybean\", \" sesame seeds\"]"
+		"allergens" : "[\"soybean\", \" sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "886924e2-9e89-4775-a6bd-83c74d6392b2",
@@ -1240,7 +1800,12 @@
 		"protein" : 14,
 		"carbohydrates" : 65.8,
 		"totalCalories" : 336.29999999999995,
-		"allergens" : "[\"Wheat\"]"
+		"allergens" : "[\"Wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "886e8964-4b09-4c2b-8cce-d770cfdd5a18",
@@ -1251,7 +1816,12 @@
 		"protein" : 9,
 		"carbohydrates" : 69,
 		"totalCalories" : 350.52,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "88c0c216-1f9f-424e-8468-0071d1a280ff",
@@ -1262,7 +1832,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 900,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "88f0288f-c1af-467f-9d47-b4a67a41bd12",
@@ -1273,7 +1848,12 @@
 		"protein" : 0.73,
 		"carbohydrates" : 9,
 		"totalCalories" : 44.32,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "8904d935-b803-4184-bf15-2a8d1cfd960d",
@@ -1284,7 +1864,12 @@
 		"protein" : 0.65,
 		"carbohydrates" : 3.63,
 		"totalCalories" : 18.11,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "8a644340-6e57-4dc2-9959-e6e5abbeff55",
@@ -1295,7 +1880,12 @@
 		"protein" : 2.97,
 		"carbohydrates" : 6.33,
 		"totalCalories" : 44.31,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "8c9a23e4-11f1-4b56-9524-825b0b882664",
@@ -1306,7 +1896,12 @@
 		"protein" : 0.9,
 		"carbohydrates" : 31,
 		"totalCalories" : 130.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "8f89a030-95ab-463c-bf05-0e0eff7add31",
@@ -1317,7 +1912,12 @@
 		"protein" : 3.1,
 		"carbohydrates" : 12.5,
 		"totalCalories" : 371.99999999999994,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "90a26c45-54a5-46bf-97e8-175639a504ea",
@@ -1328,7 +1928,12 @@
 		"protein" : 2.82,
 		"carbohydrates" : 6.64,
 		"totalCalories" : 41.17,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "90b2dd2a-eb05-404e-9239-378ae1a148ca",
@@ -1339,7 +1944,12 @@
 		"protein" : 28.42,
 		"carbohydrates" : 13.91,
 		"totalCalories" : 419.88,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9106a072-1c29-441c-a4fd-e4a9ac0e930b",
@@ -1350,7 +1960,12 @@
 		"protein" : 17.81,
 		"carbohydrates" : 26.19,
 		"totalCalories" : 608,
-		"allergens" : "[\"sesame seeds\"]"
+		"allergens" : "[\"sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "91de76c3-55ad-406d-a5a7-90b7c379c1de",
@@ -1361,7 +1976,12 @@
 		"protein" : 0.9,
 		"carbohydrates" : 3.8,
 		"totalCalories" : 50.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "922cb933-00e6-4bb1-a7b9-64b7ffa2a31a",
@@ -1372,7 +1992,12 @@
 		"protein" : 10.39,
 		"carbohydrates" : 63.95,
 		"totalCalories" : 326.70000000000005,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9265baef-415b-4d40-a2b0-e4854a2b3552",
@@ -1383,7 +2008,12 @@
 		"protein" : 11.9,
 		"carbohydrates" : 73.5,
 		"totalCalories" : 401,
-		"allergens" : "[\"wheat\", \" gluten\"]"
+		"allergens" : "[\"wheat\", \" gluten\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "927512d6-82d6-4ec9-9649-4716108e5135",
@@ -1394,7 +2024,12 @@
 		"protein" : 0,
 		"carbohydrates" : 71,
 		"totalCalories" : 294.8,
-		"allergens" : "[\"egg\", \" wheat\"]"
+		"allergens" : "[\"egg\", \" wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "92ae9ef5-689a-4228-aa00-596f245de73e",
@@ -1405,7 +2040,12 @@
 		"protein" : 13.3,
 		"carbohydrates" : 3.8,
 		"totalCalories" : 302.4,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Mustard\", \"value\": \"Mustard\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9502b19d-6361-480d-ac65-b2c99f29349f",
@@ -1416,7 +2056,12 @@
 		"protein" : 6,
 		"carbohydrates" : 40,
 		"totalCalories" : 580,
-		"allergens" : "[\"wheat\"]"
+		"allergens" : "[\"wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "983892e2-db37-4a14-803e-10213483ccc2",
@@ -1427,7 +2072,12 @@
 		"protein" : 4.7,
 		"carbohydrates" : 8.4,
 		"totalCalories" : 111.80000000000001,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9916e78f-7534-42f3-b017-43166b055982",
@@ -1438,7 +2088,12 @@
 		"protein" : 13.9,
 		"carbohydrates" : 0.9,
 		"totalCalories" : 68.19999999999999,
-		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]"
+		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9beaa53b-5ad9-41c9-a2a0-bb92aa8f1798",
@@ -1449,7 +2104,12 @@
 		"protein" : 23.6,
 		"carbohydrates" : 6,
 		"totalCalories" : 192.2,
-		"allergens" : "[{\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "9bf9d6d8-174a-4c60-af10-6a3b4d36acc8",
@@ -1460,7 +2120,12 @@
 		"protein" : 21.6,
 		"carbohydrates" : 2.47,
 		"totalCalories" : 318.03999999999996,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a02211c4-f232-4d70-baba-3b94907a5262",
@@ -1471,7 +2136,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[\"soybean\", \" sesame seeds\"]"
+		"allergens" : "[\"soybean\", \" sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a0b56e01-c777-4304-a444-aea3840c23f3",
@@ -1482,7 +2152,12 @@
 		"protein" : 6.61,
 		"carbohydrates" : 79.34,
 		"totalCalories" : 349.02000000000004,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a0eda398-6550-486c-a115-0e14f705af5e",
@@ -1493,7 +2168,12 @@
 		"protein" : 0.69,
 		"carbohydrates" : 2.97,
 		"totalCalories" : 16.17,
-		"allergens" : "[\"celery\"]"
+		"allergens" : "[\"celery\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a11f391c-a043-4528-a203-3ef52af47e46",
@@ -1504,7 +2184,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a1568001-4b8c-4e67-b064-3edda685983c",
@@ -1515,7 +2200,12 @@
 		"protein" : 1.21,
 		"carbohydrates" : 3.11,
 		"totalCalories" : 20.16,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a4a81bae-75d4-41f2-8acd-2c331e58e64e",
@@ -1526,7 +2216,12 @@
 		"protein" : 5.54,
 		"carbohydrates" : 15.12,
 		"totalCalories" : 85.16,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a6a229f7-e1fb-493a-93de-a75b854dda2c",
@@ -1537,7 +2232,12 @@
 		"protein" : 17,
 		"carbohydrates" : 2.4,
 		"totalCalories" : 212.6,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a70bae8a-4838-4199-aece-9fc5068d4d71",
@@ -1548,7 +2248,12 @@
 		"protein" : 0.28,
 		"carbohydrates" : 0.3,
 		"totalCalories" : 4.390000000000001,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "a88f466c-1ab2-43e0-ad43-12ed7a66954e",
@@ -1559,7 +2264,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ab99550f-9d46-49e3-86a3-214f3d9382e4",
@@ -1570,7 +2280,12 @@
 		"protein" : 8.24,
 		"carbohydrates" : 15.2,
 		"totalCalories" : 218.86,
-		"allergens" : "[\"sesame seeds\"]"
+		"allergens" : "[\"sesame seeds\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "acb9fee7-68fe-4c92-8414-2a9cd8349821",
@@ -1581,7 +2296,12 @@
 		"protein" : 1.7,
 		"carbohydrates" : 15,
 		"totalCalories" : 92,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ad8fd9ee-de7d-4e38-a72d-a83d9e6a4a01",
@@ -1592,7 +2312,12 @@
 		"protein" : 6.2,
 		"carbohydrates" : 27,
 		"totalCalories" : 183.2,
-		"allergens" : "[\"wheat\"]"
+		"allergens" : "[\"wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ae4dd74e-6f3b-4018-a19e-9ec0b7c61771",
@@ -1603,7 +2328,12 @@
 		"protein" : 1.92,
 		"carbohydrates" : 4.97,
 		"totalCalories" : 30.08,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "aefab2e8-bc4b-48d5-892e-3686475f7498",
@@ -1614,7 +2344,12 @@
 		"protein" : 3.4,
 		"carbohydrates" : 9,
 		"totalCalories" : 52.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "af584a14-56cf-43e0-a83b-e2854bca61f5",
@@ -1625,7 +2360,12 @@
 		"protein" : 1.9,
 		"carbohydrates" : 1.8,
 		"totalCalories" : 188.5,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "aff7a2c0-7265-4efe-b699-656608c8d3cd",
@@ -1636,7 +2376,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[\"milk\", \"egg\", \"nuts\", \"wheat\", \"celery\"]"
+		"allergens" : "[\"milk\", \"egg\", \"nuts\", \"wheat\", \"celery\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b1d63396-1611-42ab-9448-1e8c5329f283",
@@ -1647,7 +2392,12 @@
 		"protein" : 6.7,
 		"carbohydrates" : 4.1,
 		"totalCalories" : 128.7,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b203a920-ad76-4ceb-8104-0a15f26c897a",
@@ -1658,7 +2408,12 @@
 		"protein" : 2.9,
 		"carbohydrates" : 3.6,
 		"totalCalories" : 29.6,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b24b5b13-9a14-4ce8-9eab-c16d1028e14f",
@@ -1669,7 +2424,12 @@
 		"protein" : 5.4,
 		"carbohydrates" : 4.5,
 		"totalCalories" : 97.2,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b2cf9389-a7fa-437b-a703-e20f66ab9ec6",
@@ -1680,7 +2440,12 @@
 		"protein" : 1.5,
 		"carbohydrates" : 9.2,
 		"totalCalories" : 45.5,
-		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}]"
+		"allergens" : "[{\"name\": \"Celery\", \"value\": \"Celery\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b3490de5-0588-40e2-8992-6acdae146a27",
@@ -1691,7 +2456,12 @@
 		"protein" : 44,
 		"carbohydrates" : 34,
 		"totalCalories" : 447,
-		"allergens" : "[{\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b38dfcbb-a030-467d-87b0-104eedb3757e",
@@ -1702,7 +2472,12 @@
 		"protein" : 4,
 		"carbohydrates" : 11,
 		"totalCalories" : 150,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Egg\", \"value\": \"Egg\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b4e3783b-fe7e-4f1f-aeed-a165c9d2f104",
@@ -1713,7 +2488,12 @@
 		"protein" : 5.4,
 		"carbohydrates" : 3,
 		"totalCalories" : 267.6,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b520264f-5351-491b-ab70-767c6da1cd3e",
@@ -1724,7 +2504,12 @@
 		"protein" : 1,
 		"carbohydrates" : 13.2,
 		"totalCalories" : 85.6,
-		"allergens" : "[\"mustard\"]"
+		"allergens" : "[\"mustard\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b7da54d3-415b-4d19-a280-2edb13462b95",
@@ -1735,7 +2520,12 @@
 		"protein" : 8.8,
 		"carbohydrates" : 3.7,
 		"totalCalories" : 140,
-		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]"
+		"allergens" : "[{\"name\": \"Dairy\", \"value\": \"Dairy\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b7f7add4-4d35-4690-8358-54bb7281df88",
@@ -1746,7 +2536,12 @@
 		"protein" : 0.35,
 		"carbohydrates" : 6.9,
 		"totalCalories" : 31.16,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "b9dc62c5-6a83-4697-8539-baf52adfde67",
@@ -1757,7 +2552,12 @@
 		"protein" : 2.02,
 		"carbohydrates" : 2.81,
 		"totalCalories" : 211.29,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bcb206b9-0238-4972-961a-a6b027926ad7",
@@ -1768,7 +2568,12 @@
 		"protein" : 4.2,
 		"carbohydrates" : 18,
 		"totalCalories" : 95.1,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bde2d7ec-7ac0-4aac-837f-30379631dc7f",
@@ -1779,7 +2584,12 @@
 		"protein" : 8,
 		"carbohydrates" : 26,
 		"totalCalories" : 208,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bde8ac97-1107-4f12-9176-cb453f2f34bf",
@@ -1790,7 +2600,12 @@
 		"protein" : 0.6,
 		"carbohydrates" : 4.1,
 		"totalCalories" : 19.7,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bee566fc-7569-4d7d-b108-5d96b89a9a06",
@@ -1801,7 +2616,12 @@
 		"protein" : 1.3,
 		"carbohydrates" : 11,
 		"totalCalories" : 193.2,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bf1152b0-a468-41a9-b780-25be0980f5cc",
@@ -1812,7 +2632,12 @@
 		"protein" : 7.8,
 		"carbohydrates" : 50.9,
 		"totalCalories" : 252.8,
-		"allergens" : "[\"wheat\"]"
+		"allergens" : "[\"wheat\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "bfb166d2-4434-4b52-a68a-bc7cfe389300",
@@ -1823,7 +2648,12 @@
 		"protein" : 3.44,
 		"carbohydrates" : 20.9,
 		"totalCalories" : 150.45999999999998,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "c1466d0b-8114-4521-8e11-d9dd55e720f0",
@@ -1834,7 +2664,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "c147382e-3d9e-4fd1-b9fe-98de761bd3ed",
@@ -1845,7 +2680,12 @@
 		"protein" : 12.45,
 		"carbohydrates" : 42.71,
 		"totalCalories" : 252.14,
-		"allergens" : "[\"wheat\", \" gluten\"]"
+		"allergens" : "[\"wheat\", \" gluten\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "cb210a44-7c9c-4d47-9add-4d1f9c26ee5c",
@@ -1856,7 +2696,12 @@
 		"protein" : 0.86,
 		"carbohydrates" : 5.78,
 		"totalCalories" : 40.6,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ccc7774d-e43b-44f0-8c93-35ba75fbfe9d",
@@ -1867,7 +2712,12 @@
 		"protein" : 5.93,
 		"carbohydrates" : 15.56,
 		"totalCalories" : 86.14,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "cddbf2cd-57c0-47e8-a8c0-3ae93272dc2c",
@@ -1878,7 +2728,12 @@
 		"protein" : 0.99,
 		"carbohydrates" : 6.03,
 		"totalCalories" : 30.78,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "cdfde128-aeac-4781-b7d8-fd5a416b4f31",
@@ -1889,7 +2744,12 @@
 		"protein" : 10.51,
 		"carbohydrates" : 5.57,
 		"totalCalories" : 65.22,
-		"allergens" : "[\"soy bean\", \" gluten\"]"
+		"allergens" : "[\"soy bean\", \" gluten\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "cf7ec377-ae06-4003-a7ad-6f336246f137",
@@ -1900,7 +2760,12 @@
 		"protein" : 6.1,
 		"carbohydrates" : 12,
 		"totalCalories" : 76,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d21ba18f-8919-4fa4-9352-7f206bf37d86",
@@ -1911,7 +2776,12 @@
 		"protein" : 3.63,
 		"carbohydrates" : 4.21,
 		"totalCalories" : 36.489999999999995,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d3174282-5b9a-4032-a694-2654d62b49f0",
@@ -1922,7 +2792,12 @@
 		"protein" : 1.23,
 		"carbohydrates" : 3.29,
 		"totalCalories" : 20.78,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d347ec11-46ed-41e3-ac02-4eee04f38960",
@@ -1933,7 +2808,12 @@
 		"protein" : 0.4,
 		"carbohydrates" : 48,
 		"totalCalories" : 193.6,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d3808c36-2636-4583-b50b-6a29927ce2be",
@@ -1944,7 +2824,12 @@
 		"protein" : 17,
 		"carbohydrates" : 1,
 		"totalCalories" : 297,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d3d9a382-1645-4f73-8399-087d41982554",
@@ -1955,7 +2840,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d3e1baae-f0e7-4225-82ea-d875b58380d9",
@@ -1966,7 +2856,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d5ee47dd-587a-4e2b-825a-581165d2a9bb",
@@ -1977,7 +2872,12 @@
 		"protein" : 19.93,
 		"carbohydrates" : 52.04,
 		"totalCalories" : 342.15,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d61cd4d6-742e-498a-b45c-7552f3d2cb00",
@@ -1988,7 +2888,12 @@
 		"protein" : 0.88,
 		"carbohydrates" : 3.89,
 		"totalCalories" : 20.880000000000003,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d7bdb8d2-e809-4e1b-9e3d-2683cc30b198",
@@ -1999,7 +2904,12 @@
 		"protein" : 6,
 		"carbohydrates" : 15,
 		"totalCalories" : 156,
-		"allergens" : "[\"wheat\", \" soybean\"]"
+		"allergens" : "[\"wheat\", \" soybean\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d8f9f243-6bab-41e7-9597-f2829d3dc899",
@@ -2010,7 +2920,12 @@
 		"protein" : 0.82,
 		"carbohydrates" : 14.98,
 		"totalCalories" : 66.62,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "d9897297-66d1-4f7f-9b8a-5e63b8da3249",
@@ -2021,7 +2936,12 @@
 		"protein" : 0.91,
 		"carbohydrates" : 4.28,
 		"totalCalories" : 22.020000000000003,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "db8bf66e-e4b7-42ce-8876-f37e634c5b43",
@@ -2032,7 +2952,12 @@
 		"protein" : 6.5,
 		"carbohydrates" : 6.4,
 		"totalCalories" : 120,
-		"allergens" : "[\"milk\"]"
+		"allergens" : "[\"milk\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "dbde4f4c-f722-4708-8cb8-c1083f1452d2",
@@ -2043,7 +2968,12 @@
 		"protein" : 1.5,
 		"carbohydrates" : 14.15,
 		"totalCalories" : 65.3,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "df0a1d93-1811-451b-b2e0-0d08d971988c",
@@ -2054,7 +2984,12 @@
 		"protein" : 1.67,
 		"carbohydrates" : 10,
 		"totalCalories" : 469.68,
-		"allergens" : "[\"Sunflower oil\", \" water\", \" balsamico vinegar\", \" onion\", \" mustard\", \" salt\", \" cornstarch\", \" lemon juice\"]"
+		"allergens" : "[\"Sunflower oil\", \" water\", \" balsamico vinegar\", \" onion\", \" mustard\", \" salt\", \" cornstarch\", \" lemon juice\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "df41a48a-8585-4535-9660-43667a861c9d",
@@ -2065,7 +3000,12 @@
 		"protein" : 3.5,
 		"carbohydrates" : 6.5,
 		"totalCalories" : 75.1,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e0191097-2f6f-42d5-8d16-4704875abd16",
@@ -2076,7 +3016,12 @@
 		"protein" : 2.97,
 		"carbohydrates" : 6.33,
 		"totalCalories" : 44.31,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e0ae4733-1a41-4c98-9c84-c3ab7382556a",
@@ -2087,7 +3032,12 @@
 		"protein" : 1.43,
 		"carbohydrates" : 4.48,
 		"totalCalories" : 25.89,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e10ca8e1-94b9-436c-9919-f35ed46d99d6",
@@ -2098,7 +3048,12 @@
 		"protein" : 0,
 		"carbohydrates" : 26,
 		"totalCalories" : 158,
-		"allergens" : "[\"fish\"]"
+		"allergens" : "[\"fish\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e15d03b3-276b-4696-858f-dc5c927f3744",
@@ -2109,7 +3064,12 @@
 		"protein" : 17,
 		"carbohydrates" : 3,
 		"totalCalories" : 260,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e34b1a72-8048-41c3-a513-640ee7f40434",
@@ -2120,7 +3080,12 @@
 		"protein" : 71,
 		"carbohydrates" : 13.8,
 		"totalCalories" : 352.7,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e5ff9888-fb55-467f-aa0e-8d27bdd7c099",
@@ -2131,7 +3096,12 @@
 		"protein" : 9.7,
 		"carbohydrates" : 29,
 		"totalCalories" : 235.8,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}, {\"name\": \"Celery\", \"value\": \"Celery\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}, {\"name\": \"Celery\", \"value\": \"Celery\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e748a8a9-d114-4a09-85a0-0fec24e7f73a",
@@ -2142,7 +3112,12 @@
 		"protein" : 5.6,
 		"carbohydrates" : 26,
 		"totalCalories" : 176.8,
-		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}]"
+		"allergens" : "[{\"name\": \"Wheat\", \"value\": \"Wheat\"}, {\"name\": \"Soya\", \"value\": \"Soya\"}, {\"name\": \"Sesame\", \"value\": \"Sesame\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e79b72cb-8a90-4504-a61f-a3042648c16c",
@@ -2153,7 +3128,12 @@
 		"protein" : 0,
 		"carbohydrates" : 0,
 		"totalCalories" : 0,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "e8b005a3-d5ac-43fb-a335-4233f49682bb",
@@ -2164,7 +3144,12 @@
 		"protein" : 0,
 		"carbohydrates" : 99.98,
 		"totalCalories" : 399.92,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "eaf1aabb-eba2-43a4-b868-34d1b300bf59",
@@ -2175,7 +3160,12 @@
 		"protein" : 11,
 		"carbohydrates" : 3,
 		"totalCalories" : 173,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ed15d14b-a43a-4cda-83e6-e048133da3f6",
@@ -2186,7 +3176,12 @@
 		"protein" : 18,
 		"carbohydrates" : 0,
 		"totalCalories" : 110.69999999999999,
-		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]"
+		"allergens" : "[{\"name\": \"Fish\", \"value\": \"Fish\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ef2990f3-9b21-4531-9f5a-0a903e8eaf04",
@@ -2197,7 +3192,12 @@
 		"protein" : 1,
 		"carbohydrates" : 16,
 		"totalCalories" : 104,
-		"allergens" : "[\"soy bean\", \" sesame seed\"]"
+		"allergens" : "[\"soy bean\", \" sesame seed\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f0da4d5e-e1df-468d-a3c0-a4d707298784",
@@ -2208,7 +3208,12 @@
 		"protein" : 6.4,
 		"carbohydrates" : 44.4,
 		"totalCalories" : 257.2,
-		"allergens" : "[\"wheat\", \" gluten\"]"
+		"allergens" : "[\"wheat\", \" gluten\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f1056e27-4318-4035-a2d7-78eaede93ea8",
@@ -2219,7 +3224,12 @@
 		"protein" : 1.4,
 		"carbohydrates" : 21.1,
 		"totalCalories" : 108,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f1c28b7c-a8c2-4edc-9147-ffa5c2dc745d",
@@ -2230,7 +3240,12 @@
 		"protein" : 0.9,
 		"carbohydrates" : 2.97,
 		"totalCalories" : 16.740000000000002,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f2ec290a-500a-4feb-afb3-32aaa3cd608c",
@@ -2241,7 +3256,12 @@
 		"protein" : 3.27,
 		"carbohydrates" : 4.35,
 		"totalCalories" : 37.05,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f5ec09f3-7900-4a7d-b238-a5d86a2e7ded",
@@ -2252,7 +3272,12 @@
 		"protein" : 3.7,
 		"carbohydrates" : 4.7,
 		"totalCalories" : 231.60000000000002,
-		"allergens" : "[\"milk\", \" egg\", \" mustard\"]"
+		"allergens" : "[\"milk\", \" egg\", \" mustard\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "f8ee6478-8024-4553-b1b4-b89b9363f685",
@@ -2263,7 +3288,12 @@
 		"protein" : 17.52,
 		"carbohydrates" : 0,
 		"totalCalories" : 185.73,
-		"allergens" : "[\"Poultry\"]"
+		"allergens" : "[\"Poultry\"]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "fd078bdd-a91d-4736-8254-d33519a9ae41",
@@ -2274,7 +3304,12 @@
 		"protein" : 4.4,
 		"carbohydrates" : 5.7,
 		"totalCalories" : 204.2,
-		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]"
+		"allergens" : "[{\"name\": \"Milk\", \"value\": \"Milk\"}]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	},
 	{
 		"id" : "ffc53a4b-e57b-439d-b141-7d745e8b1ac4",
@@ -2285,6 +3320,11 @@
 		"protein" : 0.05,
 		"carbohydrates" : 28,
 		"totalCalories" : 112.38,
-		"allergens" : "[]"
+		"allergens" : "[]",
+		"unit":"g",
+		"inventory":[{
+			"name":"Sample inventory label",
+			"unit":"g"
+		}]
 	}
 ]

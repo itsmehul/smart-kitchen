@@ -1,6 +1,6 @@
 import { Field, InputType, Int, ObjectType } from '@nestjs/graphql';
 import { CoreEntity } from 'src/common/entities/core.entity';
-import { Column, Entity, JoinColumn, OneToMany, OneToOne } from 'typeorm';
+import { Column, Entity, OneToMany, OneToOne } from 'typeorm';
 import { Recipe } from './recipe.entity';
 import { RecipeIngredient } from './recipe_ingredient';
 import { Step } from './step.entity';
@@ -44,12 +44,13 @@ export class Cookbook extends CoreEntity {
   @OneToOne(() => Recipe)
   recipe: Recipe;
 
-  @Field(() => [RecipeIngredient])
+  @Field(() => [RecipeIngredient], { nullable: true })
   @OneToMany(
     () => RecipeIngredient,
     (recipeIngredient) => recipeIngredient.cookbook,
     {
       cascade: true,
+      eager: true,
     },
   )
   recipeIngredients: RecipeIngredient[];

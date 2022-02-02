@@ -1,12 +1,13 @@
 import { Field, InputType, Int, ObjectType, OmitType } from '@nestjs/graphql';
 import { CoreOutput } from 'src/common/dtos/output.dto';
-import { Order, OrderStatus } from '../entities/Order.entity';
+import { Order } from '../entities/order.entity';
 
 @InputType()
-export class CreateOrderInput extends OmitType(Order, ['recipe']) {
-  @Field(() => String)
-  recipeId: string;
-
+export class CreateOrderInput extends OmitType(Order, [
+  'recipe',
+  'kitchen',
+  'box',
+]) {
   @Field(() => Int, { defaultValue: 1 })
   qty: number;
 }
@@ -27,7 +28,4 @@ export class CreateOrderOutput extends CoreOutput {
 export class ShiftOrderInput {
   @Field(() => [String])
   kitchenOrderIds: string[];
-
-  @Field(() => OrderStatus)
-  direction: OrderStatus;
 }
