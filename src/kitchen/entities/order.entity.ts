@@ -6,6 +6,7 @@ import {
   registerEnumType,
 } from '@nestjs/graphql';
 import { CoreEntity } from 'src/common/entities/core.entity';
+import { Bowl } from 'src/delivery/entities/bowl.entity';
 import { Box } from 'src/delivery/entities/box.entity';
 import { Delivery } from 'src/delivery/entities/delivery.entity';
 import { Recipe } from 'src/recipe/entities/recipe.entity';
@@ -17,6 +18,7 @@ export enum OrderStatus {
   inProcessing = 'in_processing',
   inCompleted = 'in_completed',
   inPackaging = 'in_packaging',
+  cancelled = 'cancelled',
   withDriver = 'with_driver',
   delivered = 'delivered',
 }
@@ -60,6 +62,12 @@ export class Order extends CoreEntity {
     nullable: true,
   })
   delivery?: Delivery;
+
+  @Field(() => Bowl, { nullable: true })
+  @ManyToOne(() => Bowl, (bowl) => bowl.orders, {
+    nullable: true,
+  })
+  bowl?: Bowl;
 
   @Field(() => String, { nullable: true })
   @RelationId((order: Order) => order.recipe)

@@ -1,3 +1,5 @@
+import { getManager } from 'typeorm';
+
 export function concatCodeWNumber(countrycode: number, phone: number) {
   return Number(`${countrycode}${phone}`);
 }
@@ -28,4 +30,19 @@ export function generateRandomNumber(): number {
 
 export function toFixedNumberFormat(number: number): number {
   return parseFloat(number.toFixed(2));
+}
+
+export function removeTimeFromDate(date: Date): Date {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+
+export async function entitiesToSave(entities: any[]) {
+  getManager().transaction(
+    'SERIALIZABLE',
+    async (transactionalEntityManager) => {
+      await Promise.all(
+        entities.map((entity) => transactionalEntityManager.save(entity)),
+      );
+    },
+  );
 }

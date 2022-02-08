@@ -10,7 +10,15 @@ import * as bcrypt from 'bcrypt';
 import { IsEmail, IsEnum, IsString } from 'class-validator';
 import { GraphQLJSONObject } from 'graphql-type-json';
 import { CoreEntity } from 'src/common/entities/core.entity';
-import { BeforeInsert, BeforeUpdate, Column, Entity } from 'typeorm';
+import { Kitchen } from 'src/kitchen/entities/kitchen.entity';
+import {
+  BeforeInsert,
+  BeforeUpdate,
+  Column,
+  Entity,
+  ManyToOne,
+  RelationId,
+} from 'typeorm';
 
 export enum UserRole {
   Client = 'Client',
@@ -88,6 +96,14 @@ export class User extends CoreEntity {
   @Field(() => UserRole)
   @IsEnum(UserRole)
   role: UserRole;
+
+  @Field(() => Kitchen)
+  @ManyToOne(() => Kitchen, (kitchen) => kitchen.staff)
+  kitchen: Kitchen;
+
+  @Field(() => String, { nullable: true })
+  @RelationId((user: User) => user.kitchen)
+  kitchenId: string;
 
   // @Column({ default: false })
   // @Field(() => Boolean)

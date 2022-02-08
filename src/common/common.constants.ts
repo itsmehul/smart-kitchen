@@ -1,5 +1,3 @@
-import { Temperature } from 'src/recipe/entities/recipe.entity';
-
 export const RAZORPAY_AXIOS = 'RAZORPAY_AXIOS';
 export const CONFIG_OPTIONS = 'CONFIG_OPTIONS';
 export const PUB_SUB = 'PUB_SUB';
@@ -23,22 +21,11 @@ export const WEBHOOK_SECRET = 'WEBHOOK_SECRET';
 export enum EVENTS {
   ORDER_COMPLETED_FOR_GROUP = 'ORDER_COMPLETED_FOR_GROUP',
   ORDERS_IN_PROCESSING = 'ORDERS_IN_PROCESSING',
+  PLACE_ORDER = 'PLACE_ORDER',
+  CANCEL_ORDER = 'CANCEL_ORDER',
 }
 
-export const BOX_SIZE_CONFIG = (type: Temperature) => {
-  const sizes =
-    type === Temperature.Hot
-      ? {
-          big: 24,
-          medium: 6,
-          small: 4,
-        }
-      : {
-          big: 24,
-          medium: 12,
-          small: 4,
-        };
-  return sizes;
-};
-
 export const ADDONS_CAT = 'addons';
+
+export const TIRAMIZOO_URL = 'TIRAMIZOO_URL';
+export const TIRAMIZOO_WEBHOOK_URL = 'TIRAMIZOO_WEBHOOK_URL';

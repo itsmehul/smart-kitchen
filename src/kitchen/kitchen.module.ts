@@ -1,24 +1,37 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { DeliveryModule } from 'src/delivery/delivery.module';
+import { ScheduledtaskModule } from 'src/scheduledtask/scheduledtask.module';
+import { Storage } from '../inventory/entities/storage.entity';
 import { Forecast } from './entities/forecast.entity';
 import { Kitchen } from './entities/kitchen.entity';
+import { Lane } from './entities/lane.entity';
 import { Order } from './entities/order.entity';
 import {
   ForecastResolver,
   KitchenResolver,
+  LaneResolver,
   OrderResolver,
 } from './kitchen.resolver';
 import { KitchenService } from './kitchen.service';
-import { Storage } from '../inventory/entities/storage.entity';
-import { Delivery } from 'src/delivery/entities/delivery.entity';
+import { LaneService } from './lane.service';
+import { OrderService } from './order.service';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([Kitchen, Forecast, Order, Storage, Delivery]),
+    TypeOrmModule.forFeature([Kitchen, Forecast, Order, Storage, Lane]),
+    DeliveryModule,
+    ScheduledtaskModule,
   ],
-  providers: [KitchenResolver, KitchenService, ForecastResolver, OrderResolver],
-  exports: [
-    // RecipeService
+  providers: [
+    KitchenResolver,
+    ForecastResolver,
+    OrderResolver,
+    LaneResolver,
+    KitchenService,
+    LaneService,
+    OrderService,
   ],
+  exports: [OrderService],
 })
 export class KitchenModule {}

@@ -6,7 +6,7 @@ import { Order } from '../entities/order.entity';
 export class CreateOrderInput extends OmitType(Order, [
   'recipe',
   'kitchen',
-  'box',
+  // 'box',
 ]) {
   @Field(() => Int, { defaultValue: 1 })
   qty: number;
@@ -22,6 +22,12 @@ export class CancelOrderInput {
 export class CreateOrderOutput extends CoreOutput {
   @Field(() => Order, { nullable: true })
   order?: Order;
+}
+
+@ObjectType()
+export class OrdersOutput extends CoreOutput {
+  @Field(() => [Order], { nullable: true })
+  orders?: Order[];
 }
 
 @InputType()

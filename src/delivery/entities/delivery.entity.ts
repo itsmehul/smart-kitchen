@@ -11,7 +11,6 @@ import {
   TiramizooOrder,
 } from 'src/tiramizoo/entities/tiramizoo.entity';
 import { Column, Entity, JoinColumn, OneToMany, OneToOne } from 'typeorm';
-import { Box } from './box.entity';
 
 export enum DeliveryStatus {
   inKitchen = 'in_kitchen',
@@ -28,10 +27,6 @@ registerEnumType(DeliveryStatus, { name: 'DeliveryStatus' });
 @ObjectType()
 @Entity()
 export class Delivery extends CoreEntity {
-  @Field(() => [Box], { nullable: true })
-  @OneToMany(() => Box, (box) => box.delivery)
-  boxes?: Box[];
-
   @Field(() => TiramizooOrder, { nullable: true })
   @OneToOne(() => TiramizooOrder, (tiramizooOrder) => tiramizooOrder.delivery)
   @JoinColumn()

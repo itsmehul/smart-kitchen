@@ -66,9 +66,9 @@ export class RecipeService {
 
   async getRecipes(): Promise<RecipesOutput> {
     const recipes = await this.recipe.find({
-      where: {
-        id: '5fc698c2-c88b-40a9-870d-4252521076a7',
-      },
+      // where: {
+      //   id: '5fc698c2-c88b-40a9-870d-4252521076a7',
+      // },
       relations: [
         'cookbook',
         'cookbook.steps',

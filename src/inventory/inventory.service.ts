@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DateTime } from 'luxon';
+import { ArithmeticOperator } from 'src/common/common.interfaces';
 import { Recipe } from 'src/recipe/entities/recipe.entity';
 import { RecipeIngredient } from 'src/recipe/entities/recipe_ingredient';
 import { Repository } from 'typeorm';
@@ -72,10 +73,11 @@ export class InventoryService {
     };
   }
 
-  async reduceStockForRecipe(
+  async updateStockForRecipe(
     recipeId: string,
     orderedQty: number,
     kitchenId: string,
+    operation: ArithmeticOperator,
   ): Promise<any> {
     const allInventoriesAffected = [];
 
@@ -106,18 +108,22 @@ export class InventoryService {
         if (recipeIng?.ingredient) {
           const inventories = recipeIng.ingredient.inventories.filter(
             (inv) =>
-              inv.storage.kitchenId ===
-                '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+              inv.storage.kitchenId === kitchenId &&
               DateTime.fromISO(inv.expiry) > DateTime.now(),
           );
           let quantityNeeded = recipeIng.qty * parentQty * orderedQty;
           inventories.forEach((inv) => {
-            if (inv.qty >= quantityNeeded) {
-              inv.qty -= quantityNeeded;
-              quantityNeeded = 0;
+            if (operation === ArithmeticOperator.SUBTRACT) {
+              if (inv.qty >= quantityNeeded) {
+                inv.qty -= quantityNeeded;
+                quantityNeeded = 0;
+              } else {
+                quantityNeeded -= inv.qty;
+                inv.qty = 0;
+              }
             } else {
-              quantityNeeded -= inv.qty;
-              inv.qty = 0;
+              inv.qty += quantityNeeded;
+              quantityNeeded = 0;
             }
           });
 
@@ -131,32 +137,38 @@ export class InventoryService {
           if (recipeIng.subRecipe.inventories.length > 0) {
             const inventories = recipeIng.subRecipe.inventories.filter(
               (inv) =>
-                inv.storage.kitchenId ===
-                  '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+                inv.storage.kitchenId === kitchenId &&
                 DateTime.fromISO(inv.expiry) > DateTime.now(),
             );
             let quantityNeeded = recipeIng.qty * parentQty * orderedQty;
             inventories.forEach((inv) => {
-              if (inv.qty >= quantityNeeded) {
-                inv.qty -= quantityNeeded;
-                quantityNeeded = 0;
+              if (operation === ArithmeticOperator.SUBTRACT) {
+                if (inv.qty >= quantityNeeded) {
+                  inv.qty -= quantityNeeded;
+                  quantityNeeded = 0;
+                } else {
+                  quantityNeeded -= inv.qty;
+                  inv.qty = 0;
+                }
               } else {
-                quantityNeeded -= inv.qty;
-                inv.qty = 0;
+                inv.qty += quantityNeeded;
+                quantityNeeded = 0;
               }
             });
 
-            if (quantityNeeded > 0) {
+            if (quantityNeeded > 0 && operation === 'SUBTRACT') {
               console.log('Error in quantity estimation');
             }
 
             allInventoriesAffected.push(...inventories);
-          } else {
-            getStockFromRecipeIngredients(
-              recipeIng.subRecipe.cookbook.recipeIngredients,
-              recipeIng.qty,
-            );
           }
+          // This will recursively remove the ingredients from the subrecipe
+          // else {
+          //   getStockFromRecipeIngredients(
+          //     recipeIng.subRecipe.cookbook.recipeIngredients,
+          //     recipeIng.qty,
+          //   );
+          // }
         }
       }
     };
