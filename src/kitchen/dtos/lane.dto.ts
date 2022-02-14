@@ -7,12 +7,19 @@ import {
   registerEnumType,
 } from '@nestjs/graphql';
 import { CoreOutput } from 'src/common/dtos/output.dto';
-import { Lane } from '../entities/lane.entity';
+import { Lane, LaneStatus } from '../entities/lane.entity';
 
 export enum OrderActionType {
   ADD = 'ADD',
   REMOVE = 'REMOVE',
 }
+
+export enum Direction {
+  LEFT = 'LEFT',
+  RIGHT = 'RIGHT',
+}
+
+registerEnumType(Direction, { name: 'Direction' });
 
 registerEnumType(OrderActionType, { name: 'OrderActionType' });
 
@@ -41,6 +48,21 @@ export class PromoteRecipesInput extends PickType(Lane, [
 ]) {
   @Field(() => Int)
   qty: number;
+}
+
+@InputType()
+export class ShiftRecipeToLaneInput extends PickType(Lane, [
+  'serviceDate',
+  'recipeId',
+]) {
+  @Field(() => Int)
+  qty: number;
+
+  @Field(() => LaneStatus, { description: 'Lane to move from' })
+  lane: LaneStatus;
+
+  @Field(() => Direction, { description: 'direction to move' })
+  direction: Direction;
 }
 
 @InputType()

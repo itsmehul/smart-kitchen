@@ -23,6 +23,15 @@ export enum EVENTS {
   ORDERS_IN_PROCESSING = 'ORDERS_IN_PROCESSING',
   PLACE_ORDER = 'PLACE_ORDER',
   CANCEL_ORDER = 'CANCEL_ORDER',
+  UPDATED_STOCK = 'UPDATED_STOCK',
+}
+
+export enum SUB_EVENTS {
+  UPDATED_STOCK = 'UPDATED_STOCK',
+}
+
+export enum CACHE_KEYS {
+  MENU = 'MENU',
 }
 
 export const ADDONS_CAT = 'addons';

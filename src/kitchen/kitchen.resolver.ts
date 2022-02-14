@@ -1,13 +1,19 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+import { AuthUser } from 'src/auth/auth-user.decorator';
+import { Role } from 'src/auth/role.decorator';
 import { CoreOutput } from 'src/common/dtos/output.dto';
 import { BoxService } from 'src/delivery/box.service';
-import { CreateForecastInput, ForecastsOutput } from './dtos/forecast.dto';
+import { BoxesToDeliverOutput } from 'src/delivery/dto/delivery.dto';
+import { User } from 'src/users/entities/user.entity';
+import { ForecastsOutput } from './dtos/forecast.dto';
 import { CreateKitchenInput, KitchenIdInput } from './dtos/Kitchen.dto';
 import { PromoteRecipesInput, UpdateForecastInput } from './dtos/lane.dto';
 import {
   CancelOrderInput,
   CreateOrderInput,
   OrdersOutput,
+  PackOrdersInput,
+  PackOrderViaBowlInput,
 } from './dtos/order.dto';
 import { Forecast } from './entities/forecast.entity';
 import { Kitchen } from './entities/Kitchen.entity';
@@ -34,13 +40,6 @@ export class KitchenResolver {
 export class ForecastResolver {
   constructor(private readonly kitchenService: KitchenService) {}
 
-  @Mutation(() => CoreOutput)
-  createForecastOrder(
-    @Args('input') input: CreateForecastInput,
-  ): Promise<CoreOutput> {
-    return this.kitchenService.createForecastedOrder(input);
-  }
-
   @Query(() => ForecastsOutput)
   getForecasts(): Promise<ForecastsOutput> {
     return this.kitchenService.getForecasts();
@@ -55,10 +54,28 @@ export class OrderResolver {
     private readonly boxService: BoxService,
   ) {}
 
-  // @Mutation(() => CoreOutput)
-  // createOrder(@Args('input') input: CreateOrderInput): Promise<CoreOutput> {
-  //   return this.kitchenService.createOrder(input);
-  // }
+  @Role(['Manager', 'Staff'])
+  @Mutation(() => BoxesToDeliverOutput)
+  async packOrders(
+    @AuthUser() user: User,
+    @Args('input') input: PackOrdersInput,
+  ): Promise<BoxesToDeliverOutput> {
+    const boxes = await this.orderService.packOrders(input, user.kitchenId);
+    return { ok: true, boxes };
+  }
+
+  @Role(['Manager', 'Staff'])
+  @Mutation(() => BoxesToDeliverOutput)
+  async packOrdersViaBowl(
+    @AuthUser() user: User,
+    @Args('input') input: PackOrderViaBowlInput,
+  ): Promise<BoxesToDeliverOutput> {
+    const boxes = await this.orderService.packOrdersViaBowl(
+      input,
+      user.kitchenId,
+    );
+    return { ok: true, boxes };
+  }
 
   @Mutation(() => CoreOutput)
   createOrder(@Args('input') input: CreateOrderInput): Promise<CoreOutput> {
@@ -85,8 +102,10 @@ export class OrderResolver {
 export class LaneResolver {
   constructor(private readonly laneService: LaneService) {}
 
+  @Role(['Manager'])
   @Mutation(() => CoreOutput)
   promoteRecipes(
+    @AuthUser() user: User,
     @Args('input') input: PromoteRecipesInput,
   ): Promise<CoreOutput> {
     return this.laneService.promoteRecipes(input);

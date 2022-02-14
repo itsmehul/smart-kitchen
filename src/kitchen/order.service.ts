@@ -1,12 +1,15 @@
-import { CACHE_MANAGER, Inject, Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { EventEmitter2 } from '@nestjs/event-emitter';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Cache } from 'cache-manager';
 import { DateTime } from 'luxon';
 import { EVENTS } from 'src/common/common.constants';
+import { ArithmeticOperator } from 'src/common/common.interfaces';
+import { BowlService } from 'src/delivery/bowl.service';
 import { BoxService } from 'src/delivery/box.service';
 import { DeliveryService } from 'src/delivery/delivery.service';
+import { Box } from 'src/delivery/entities/box.entity';
+import { InventoryService } from 'src/inventory/inventory.service';
 import { TaskType } from 'src/scheduledtask/entities/scheduledtask.entity';
 import { ScheduledtaskService } from 'src/scheduledtask/scheduledtask.service';
 import {
@@ -14,9 +17,15 @@ import {
   handleErrorResponse,
   removeTimeFromDate,
 } from 'src/utils/misc';
-import { getManager, Repository } from 'typeorm';
+import { getManager, In, Repository } from 'typeorm';
 import { OrderActionType } from './dtos/lane.dto';
-import { CancelOrderInput, CreateOrderInput } from './dtos/order.dto';
+import {
+  CancelOrderInput,
+  CreateOrderInput,
+  PackOrdersInput,
+  PackOrderViaBowlInput,
+  UpdateOrderStatusInput,
+} from './dtos/order.dto';
 import { Order, OrderStatus } from './entities/Order.entity';
 import { LaneService } from './lane.service';
 
@@ -28,10 +37,65 @@ export class OrderService {
     private readonly deliveryService: DeliveryService,
     private readonly scheduletaskService: ScheduledtaskService,
     private readonly boxService: BoxService,
+    private readonly bowlService: BowlService,
+    private readonly inventoryService: InventoryService,
     private schedulerRegistry: SchedulerRegistry,
-    @Inject(CACHE_MANAGER) private cacheManager: Cache,
     private eventEmitter: EventEmitter2,
   ) {}
+
+  async updateStatus(input: UpdateOrderStatusInput): Promise<any> {
+    try {
+      await this.order.update(
+        {
+          id: In(input.orderIds),
+        },
+        { status: input.status },
+      );
+    } catch (error) {
+      console.log('');
+    }
+  }
+
+  async packOrders(
+    input: PackOrdersInput,
+    kitchenId: string,
+  ): Promise<Box[][]> {
+    try {
+      await this.order.update(
+        {
+          id: In(input.orderIds),
+        },
+        { status: OrderStatus.PACKED },
+      );
+      return this.boxService.getAllOrdersReadyForDelivery(kitchenId);
+    } catch (error) {
+      console.log('');
+    }
+  }
+
+  async packOrdersViaBowl(
+    input: PackOrderViaBowlInput,
+    kitchenId: string,
+  ): Promise<Box[][]> {
+    try {
+      const emptyBowl = await this.bowlService.getBowlIfEmpty(input.bowlId);
+      if (!emptyBowl) {
+        throw 'Bowl already used';
+      }
+      await this.order.update(
+        {
+          id: input.orderId,
+          bowl: {
+            id: input.bowlId,
+          },
+        },
+        { status: OrderStatus.PACKED },
+      );
+      return this.boxService.getAllOrdersReadyForDelivery(kitchenId);
+    } catch (error) {
+      console.log('');
+    }
+  }
 
   async createOrder({ qty, ...input }: CreateOrderInput): Promise<any> {
     try {
@@ -62,7 +126,13 @@ export class OrderService {
         );
       }
 
-      await entitiesToSave([lane, orders]);
+      const { allInventoriesAffected, possibleStock } =
+        await this.inventoryService.updateStockForRecipe(
+          input.recipeId,
+          qty,
+          input.kitchenId,
+          ArithmeticOperator.SUBTRACT,
+        );
 
       const cronName = input.delivery.deliveryDateTime.toISOString();
 
@@ -82,7 +152,7 @@ export class OrderService {
       }
 
       if (!jobExists) {
-        this.scheduletaskService.createScheduledTask(
+        await this.scheduletaskService.createScheduledTask(
           cronName,
           input.delivery.deliveryDateTime,
           TaskType.BOX,
@@ -96,10 +166,11 @@ export class OrderService {
         );
       }
 
-      this.eventEmitter.emit(EVENTS.PLACE_ORDER, {
+      await entitiesToSave([lane, orders, allInventoriesAffected]);
+
+      this.eventEmitter.emit(EVENTS.UPDATED_STOCK, {
+        possibleStock,
         recipeId: input.recipeId,
-        orderedQty: qty,
-        kitchenId: input.kitchenId,
       });
 
       return { ok: true };
@@ -130,24 +201,26 @@ export class OrderService {
         ),
       });
 
-      for (const foundOrder of foundOrders) {
-        foundOrder.orderId = null;
-        foundOrder.delivery = null;
-        foundOrder.status = OrderStatus.cancelled;
-      }
+      const { allInventoriesAffected, possibleStock } =
+        await this.inventoryService.updateStockForRecipe(
+          foundOrders[0].recipeId,
+          foundOrders.length,
+          foundOrders[0].kitchenId,
+          ArithmeticOperator.ADD,
+        );
 
       await getManager().transaction(
         'SERIALIZABLE',
         async (transactionalEntityManager) => {
           await transactionalEntityManager.save(lane);
-          await transactionalEntityManager.delete(Order, foundOrders);
+          await transactionalEntityManager.save(allInventoriesAffected);
+          await transactionalEntityManager.remove(foundOrders);
         },
       );
 
-      this.eventEmitter.emit(EVENTS.CANCEL_ORDER, {
+      this.eventEmitter.emit(EVENTS.UPDATED_STOCK, {
+        possibleStock,
         recipeId: foundOrders[0].recipeId,
-        orderedQty: foundOrders.length,
-        kitchenId: foundOrders[0].kitchenId,
       });
 
       return { ok: true };

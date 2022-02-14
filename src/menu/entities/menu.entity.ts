@@ -1,8 +1,8 @@
 import { Field, InputType, ObjectType } from '@nestjs/graphql';
 import { IsDate, IsString } from 'class-validator';
 import { CoreEntity } from 'src/common/entities/core.entity';
-import { Recipe } from 'src/recipe/entities/recipe.entity';
-import { Column, Entity, JoinTable, ManyToMany } from 'typeorm';
+import { Column, Entity, OneToMany } from 'typeorm';
+import { MenuDish } from './menuDish.entity';
 
 @InputType('MenuInputType', { isAbstract: true })
 @ObjectType()
@@ -23,10 +23,12 @@ export class Menu extends CoreEntity {
   @IsDate()
   endDate: Date;
 
-  @Field(() => [Recipe], { nullable: true })
-  @ManyToMany(() => Recipe, (recipe) => recipe.menus)
-  @JoinTable()
-  dishes?: Recipe[];
+  @Field(() => [MenuDish], { nullable: true })
+  @OneToMany(() => MenuDish, (menuDish) => menuDish.menu, {
+    eager: true,
+    cascade: true,
+  })
+  menuDishes?: MenuDish[];
 
   @Field(() => Boolean)
   @Column({ type: 'boolean' })

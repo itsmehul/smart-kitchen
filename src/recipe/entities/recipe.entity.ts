@@ -9,7 +9,7 @@ import { CoreEntity } from 'src/common/entities/core.entity';
 import { Inventory } from 'src/inventory/entities/inventory.entity';
 import { Forecast } from 'src/kitchen/entities/forecast.entity';
 import { Order } from 'src/kitchen/entities/order.entity';
-import { Menu } from 'src/menu/entities/menu.entity';
+import { MenuDish } from 'src/menu/entities/menuDish.entity';
 import {
   Column,
   Entity,
@@ -72,9 +72,9 @@ export class Recipe extends CoreEntity {
   })
   inventories: Inventory[];
 
-  @Field(() => [Menu], { nullable: true })
-  @ManyToMany(() => Menu, (menu) => menu.dishes)
-  menus?: Menu[];
+  @Field(() => [MenuDish], { nullable: true })
+  @OneToMany(() => MenuDish, (menuDish) => menuDish.dish)
+  menuDishes?: MenuDish[];
 
   @Field(() => [Cookbook], {
     nullable: true,

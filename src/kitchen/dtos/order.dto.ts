@@ -1,6 +1,6 @@
 import { Field, InputType, Int, ObjectType, OmitType } from '@nestjs/graphql';
 import { CoreOutput } from 'src/common/dtos/output.dto';
-import { Order } from '../entities/order.entity';
+import { Order, OrderStatus } from '../entities/order.entity';
 
 @InputType()
 export class CreateOrderInput extends OmitType(Order, [
@@ -10,6 +10,29 @@ export class CreateOrderInput extends OmitType(Order, [
 ]) {
   @Field(() => Int, { defaultValue: 1 })
   qty: number;
+}
+
+@InputType()
+export class UpdateOrderStatusInput {
+  @Field(() => [String])
+  orderIds: string[];
+  @Field(() => OrderStatus)
+  status: OrderStatus;
+}
+
+@InputType()
+export class PackOrdersInput {
+  @Field(() => [String])
+  orderIds: string[];
+}
+
+@InputType()
+export class PackOrderViaBowlInput {
+  @Field(() => String)
+  orderId: string;
+
+  @Field(() => String)
+  bowlId: string;
 }
 
 @InputType()

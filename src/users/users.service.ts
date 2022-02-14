@@ -31,6 +31,7 @@ export class UserService {
     private readonly mailService: MailService,
   ) {}
 
+  // The JWT doesn't expire instead we authorize the ip address
   async createAccount({
     email,
     password,
@@ -83,10 +84,7 @@ export class UserService {
 
   async findById(id: string): Promise<any> {
     try {
-      const user = await this.users.findOneOrFail(
-        { id },
-        { relations: ['shop', 'shop.discounts', 'shop.stories', 'discounts'] },
-      );
+      const user = await this.users.findOneOrFail({ id });
 
       return {
         ok: true,

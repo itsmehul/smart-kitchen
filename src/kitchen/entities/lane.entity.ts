@@ -12,21 +12,15 @@ import { BeforeInsert, Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { Kitchen } from './kitchen.entity';
 
 export enum LaneStatus {
-  inKitchen = 'in_kitchen',
   inProcessing = 'in_processing',
+  inKitchen = 'in_kitchen',
   inCompleted = 'in_completed',
-  inPackaging = 'in_packaging',
-  withDriver = 'with_driver',
-  delivered = 'delivered',
 }
 
 export const MOVEMENT_DIRECTION = [
   LaneStatus.inKitchen,
   LaneStatus.inProcessing,
   LaneStatus.inCompleted,
-  LaneStatus.inPackaging,
-  LaneStatus.withDriver,
-  LaneStatus.delivered,
 ];
 
 registerEnumType(LaneStatus, { name: 'LaneStatus' });
@@ -66,7 +60,7 @@ export class Lane extends CoreEntity {
 
   @Field(() => Int)
   @Column({ type: 'int', default: 0 })
-  inComplete: number;
+  inCompleted: number;
 
   @Field(() => Recipe, { nullable: true })
   @ManyToOne(() => Recipe, (recipe) => recipe.forecasts)

@@ -1,10 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { DateTime } from 'luxon';
 import { Kitchen } from 'src/kitchen/entities/kitchen.entity';
 import { Order } from 'src/kitchen/entities/order.entity';
 import { Temperature } from 'src/recipe/entities/recipe.entity';
 import { TiramizooService } from 'src/tiramizoo/tiramizoo.service';
-import { In, IsNull, Repository } from 'typeorm';
+import { In, IsNull, LessThan, Not, Repository } from 'typeorm';
 import { Box } from './entities/box.entity';
 
 type AvailableBoxes = Record<string, Record<number, Box[]>>;
@@ -17,11 +18,11 @@ export class BoxService {
     private readonly tiramizooService: TiramizooService,
   ) {}
 
-  createBoxEntity(input: Box): Box {
+  createBoxEntity(input: Box, kitchenId: string): Box {
     return this.box.create({
       ...input,
       kitchen: {
-        id: input.kitchenId,
+        id: kitchenId,
       },
     });
   }
@@ -184,28 +185,34 @@ export class BoxService {
     });
   }
 
-  async getAllOrdersReadyForDelivery(kitchenId: string): Promise<any> {
-    const boxes = (
-      await this.box.find({
-        where: {
-          kitchen: {
-            id: kitchenId,
+  async getAllOrdersReadyForDelivery(kitchenId: string): Promise<Box[][]> {
+    return Object.values(
+      (
+        await this.box.find({
+          where: (qb) => {
+            qb.where({
+              kitchen: {
+                id: kitchenId,
+              },
+            }).andWhere(
+              'EXISTS (SELECT * FROM `order` o where o.boxId = box.id)',
+            );
           },
-        },
-        relations: ['orders', 'orders.delivery', 'orders.recipe'],
-      })
-    ).reduce((a, b) => {
-      if (b.orders.length === 0) {
-        return a;
-      }
-      return {
-        ...a,
-        [b.orders[0].delivery.external_id]: [
-          ...(a[b.orders?.[0]?.delivery?.external_id] || []),
-          b,
-        ],
-      };
-    }, {});
+          relations: ['orders', 'orders.delivery', 'orders.recipe'],
+        })
+      ).reduce((a, b) => {
+        if (b.orders.length === 0) {
+          return a;
+        }
+        return {
+          ...a,
+          [b.orders[0].delivery.external_id]: [
+            ...(a[b.orders?.[0]?.delivery?.external_id] || []),
+            b,
+          ],
+        };
+      }, {}),
+    );
   }
 
   async deliverBoxes(boxIds: string[], kitchen: Kitchen): Promise<any> {

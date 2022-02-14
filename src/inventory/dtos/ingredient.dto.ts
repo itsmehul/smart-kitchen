@@ -1,4 +1,10 @@
-import { Field, InputType, ObjectType, PartialType } from '@nestjs/graphql';
+import {
+  Field,
+  InputType,
+  Int,
+  ObjectType,
+  PartialType,
+} from '@nestjs/graphql';
 import { CoreOutput } from 'src/common/dtos/output.dto';
 import { Ingredient } from '../entities/ingredient.entity';
 import { Inventory } from '../entities/inventory.entity';
@@ -27,4 +33,11 @@ export class BulkCreateIngredientOutput extends CoreOutput {
 export class IngredientsOutput extends CoreOutput {
   @Field(() => [Ingredient], { nullable: true })
   ingredients?: Ingredient[];
+}
+@ObjectType()
+export class StockOutput {
+  @Field(() => String)
+  recipeId: string;
+  @Field(() => Int)
+  possibleStock: number;
 }

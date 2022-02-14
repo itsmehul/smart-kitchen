@@ -17,25 +17,4 @@ export class DeliveryService {
   createDeliveryEntity(input: CreateDeliveryInput): Delivery {
     return this.delivery.create(input);
   }
-
-  async getAllOrdersReadyForDelivery(kitchenId: string): Promise<any> {
-    const orders = await this.order.find({
-      where: {
-        // status: OrderStatus.inCompleted,
-        box: Not(IsNull()),
-        kitchen: {
-          id: kitchenId,
-        },
-        // delivery: {
-        //   deliveryDateTime: Between(
-        //     DateTime.now().plus({ minute: 105 }).toJSDate(),
-        //     DateTime.now().plus({ hour: 2 }).toJSDate(),
-        //   ),
-        // },
-      },
-      relations: ['delivery', 'recipe', 'box'],
-    });
-
-    console.log('orde', orders);
-  }
 }

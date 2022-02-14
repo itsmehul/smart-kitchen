@@ -78,8 +78,9 @@ export class InventoryService {
     orderedQty: number,
     kitchenId: string,
     operation: ArithmeticOperator,
-  ): Promise<any> {
+  ): Promise<{ allInventoriesAffected: Inventory[]; possibleStock: number }> {
     const allInventoriesAffected = [];
+    let possibleStock = 99999;
 
     const foundRecipe = await this.recipe.findOne({
       where: {
@@ -112,6 +113,7 @@ export class InventoryService {
               DateTime.fromISO(inv.expiry) > DateTime.now(),
           );
           let quantityNeeded = recipeIng.qty * parentQty * orderedQty;
+          const quantityNeededCpy = quantityNeeded;
           inventories.forEach((inv) => {
             if (operation === ArithmeticOperator.SUBTRACT) {
               if (inv.qty >= quantityNeeded) {
@@ -125,6 +127,10 @@ export class InventoryService {
               inv.qty += quantityNeeded;
               quantityNeeded = 0;
             }
+            possibleStock = Math.min(
+              possibleStock,
+              Math.floor(inv.qty / quantityNeededCpy),
+            );
           });
 
           if (quantityNeeded > 0) {
@@ -141,6 +147,8 @@ export class InventoryService {
                 DateTime.fromISO(inv.expiry) > DateTime.now(),
             );
             let quantityNeeded = recipeIng.qty * parentQty * orderedQty;
+            const quantityNeededCpy = quantityNeeded;
+
             inventories.forEach((inv) => {
               if (operation === ArithmeticOperator.SUBTRACT) {
                 if (inv.qty >= quantityNeeded) {
@@ -154,6 +162,10 @@ export class InventoryService {
                 inv.qty += quantityNeeded;
                 quantityNeeded = 0;
               }
+              possibleStock = Math.min(
+                possibleStock,
+                Math.floor(inv.qty / quantityNeededCpy),
+              );
             });
 
             if (quantityNeeded > 0 && operation === 'SUBTRACT') {
@@ -163,17 +175,17 @@ export class InventoryService {
             allInventoriesAffected.push(...inventories);
           }
           // This will recursively remove the ingredients from the subrecipe
-          // else {
-          //   getStockFromRecipeIngredients(
-          //     recipeIng.subRecipe.cookbook.recipeIngredients,
-          //     recipeIng.qty,
-          //   );
-          // }
+          else {
+            getStockFromRecipeIngredients(
+              recipeIng.subRecipe.cookbook.recipeIngredients,
+              recipeIng.qty,
+            );
+          }
         }
       }
     };
     getStockFromRecipeIngredients(foundRecipe.cookbook.recipeIngredients, 1);
 
-    await this.inventory.save(allInventoriesAffected);
+    return { allInventoriesAffected, possibleStock };
   }
 }

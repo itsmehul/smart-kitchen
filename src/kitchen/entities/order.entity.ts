@@ -10,26 +10,35 @@ import { Bowl } from 'src/delivery/entities/bowl.entity';
 import { Box } from 'src/delivery/entities/box.entity';
 import { Delivery } from 'src/delivery/entities/delivery.entity';
 import { Recipe } from 'src/recipe/entities/recipe.entity';
-import { BeforeInsert, Column, Entity, ManyToOne, RelationId } from 'typeorm';
+import {
+  BeforeInsert,
+  Column,
+  Entity,
+  ManyToOne,
+  OneToOne,
+  RelationId,
+} from 'typeorm';
 import { Kitchen } from './kitchen.entity';
 
 export enum OrderStatus {
-  inKitchen = 'in_kitchen',
-  inProcessing = 'in_processing',
-  inCompleted = 'in_completed',
-  inPackaging = 'in_packaging',
-  cancelled = 'cancelled',
-  withDriver = 'with_driver',
-  delivered = 'delivered',
+  // Order is accepted by kitchen
+  RECEIVED = 'RECEIVED',
+  // Scan dish and associate to order
+  COMPLETED = 'COMPLETED',
+  // Scan dish when placed in box
+  PACKED = 'PACKED',
+  // Associated box is scanned by driver on pickup
+  ENROUTE = 'ENROUTE',
+  // Associated box is scanned by driver on delivery
+  DELIVERED = 'DELIVERED',
 }
 
 export const MOVEMENT_DIRECTION = [
-  OrderStatus.inKitchen,
-  OrderStatus.inProcessing,
-  OrderStatus.inCompleted,
-  OrderStatus.inPackaging,
-  OrderStatus.withDriver,
-  OrderStatus.delivered,
+  OrderStatus.RECEIVED,
+  OrderStatus.COMPLETED,
+  OrderStatus.PACKED,
+  OrderStatus.ENROUTE,
+  OrderStatus.DELIVERED,
 ];
 
 registerEnumType(OrderStatus, { name: 'OrderStatus' });
@@ -44,8 +53,12 @@ export class Order extends CoreEntity {
   @Column({ nullable: true })
   orderId: string;
 
-  @Field(() => OrderStatus, { defaultValue: OrderStatus.inKitchen })
-  @Column({ type: 'enum', enum: OrderStatus, default: OrderStatus.inKitchen })
+  @Field(() => OrderStatus, { defaultValue: OrderStatus.RECEIVED })
+  @Column({
+    type: 'enum',
+    enum: OrderStatus,
+    default: OrderStatus.RECEIVED,
+  })
   status: OrderStatus;
 
   @Field(() => Kitchen, { nullable: true })
@@ -64,7 +77,7 @@ export class Order extends CoreEntity {
   delivery?: Delivery;
 
   @Field(() => Bowl, { nullable: true })
-  @ManyToOne(() => Bowl, (bowl) => bowl.orders, {
+  @OneToOne(() => Bowl, (bowl) => bowl.order, {
     nullable: true,
   })
   bowl?: Bowl;
@@ -78,13 +91,13 @@ export class Order extends CoreEntity {
   kitchenId: string;
 
   @Field(() => Box, { nullable: true })
-  @ManyToOne(() => Box, (box) => box.orders)
+  @ManyToOne(() => Box, (box) => box.orders, { cascade: ['remove'] })
   box?: Box;
 
   @BeforeInsert()
   async setStatusOnCreation(): Promise<void> {
     try {
-      this.status = OrderStatus.inKitchen;
+      this.status = OrderStatus.RECEIVED;
     } catch (e) {
       throw new InternalServerErrorException();
     }

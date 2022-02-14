@@ -33,6 +33,7 @@ import { KitchenModule } from './kitchen/kitchen.module';
 import { MailModule } from './mail/mail.module';
 import { MediaModule } from './media/media.module';
 import { Menu } from './menu/entities/menu.entity';
+import { MenuDish } from './menu/entities/menuDish.entity';
 import { MenuModule } from './menu/menu.module';
 import { Category } from './recipe/entities/category.entity';
 import { Cookbook } from './recipe/entities/cookbook.entity';
@@ -112,6 +113,7 @@ import { UsersModule } from './users/users.module';
         Lane,
         Scheduledtask,
         Bowl,
+        MenuDish,
       ],
     }),
     GraphQLModule.forRoot({

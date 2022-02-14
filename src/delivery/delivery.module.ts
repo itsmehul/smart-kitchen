@@ -24,6 +24,6 @@ import { Delivery } from './entities/delivery.entity';
     DeliveryService,
     DeliveryResolver,
   ],
-  exports: [BoxService, DeliveryService],
+  exports: [BoxService, DeliveryService, BowlService],
 })
 export class DeliveryModule {}

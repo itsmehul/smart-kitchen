@@ -21,9 +21,19 @@ import {
 } from 'typeorm';
 
 export enum UserRole {
+  // Create/Cancel orders and Request data, require API Token
   Client = 'Client',
-  Owner = 'Owner',
-  Delivery = 'Delivery',
+  // Superuser
+  Manager = 'Manager',
+  // Delivery related logic
+  Courier = 'Courier',
+  // Handle data and forecast
+  Analyst = 'Analyst',
+  // Handle recipe creation
+  Chef = 'Chef',
+  // Handle lane, boxing
+  Staff = 'Staff',
+  // Access to public apis
   Guest = 'Guest',
 }
 

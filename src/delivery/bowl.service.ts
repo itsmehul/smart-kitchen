@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { IsNull, Not, Repository } from 'typeorm';
 import { Bowl } from './entities/bowl.entity';
 
 @Injectable()
@@ -16,5 +16,9 @@ export class BowlService {
         id: input.kitchenId,
       },
     });
+  }
+
+  getBowlIfEmpty(id: string): Promise<Bowl> {
+    return this.bowl.findOne({ where: { id, order: Not(IsNull()) } });
   }
 }

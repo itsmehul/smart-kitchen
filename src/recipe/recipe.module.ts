@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Global, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Action } from 'src/inventory/entities/action.entity';
 import { Ingredient } from 'src/inventory/entities/ingredient.entity';
@@ -16,6 +16,7 @@ import {
 } from './recipe.resolver';
 import { RecipeService } from './recipe.service';
 
+@Global()
 @Module({
   imports: [
     TypeOrmModule.forFeature([
@@ -36,8 +37,6 @@ import { RecipeService } from './recipe.service';
     RecipeResolver,
     CookbookResolver,
   ],
-  exports: [
-    // RecipeService
-  ],
+  exports: [RecipeService],
 })
 export class RecipeModule {}

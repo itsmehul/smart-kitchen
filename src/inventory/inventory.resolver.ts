@@ -1,10 +1,16 @@
-import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+import { Inject } from '@nestjs/common';
+import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql';
+import { PubSub } from 'graphql-subscriptions';
+import { Role } from 'src/auth/role.decorator';
+import { PUB_SUB, SUB_EVENTS } from 'src/common/common.constants';
 import { CoreOutput } from 'src/common/dtos/output.dto';
+import { User } from 'src/users/entities/user.entity';
 import { BulkCreateActionOutput, CreateActionInput } from './dtos/action.dto';
 import {
   BulkCreateIngredientOutput,
   CreateIngredientInput,
   IngredientsOutput,
+  StockOutput,
 } from './dtos/ingredient.dto';
 import { Action } from './entities/action.entity';
 import { Ingredient } from './entities/ingredient.entity';
@@ -13,10 +19,13 @@ import { InventoryService } from './inventory.service';
 
 @Resolver(() => Inventory)
 export class InventoryResolver {
-  constructor(private readonly inventoryService: InventoryService) {}
+  constructor(
+    private readonly inventoryService: InventoryService,
+    @Inject(PUB_SUB) private readonly pubSub: PubSub,
+  ) {}
 
   // @Mutation(() => CreateShopOutput)
-  // @Role(['Owner'])
+  // @Role(['Manager'])
   // async createShop(
   //   @AuthUser() authUser: User,
   //   @Args('input') createShopInput: CreateShopInput,
@@ -25,10 +34,27 @@ export class InventoryResolver {
   // }
 
   // @Query(() => ShopOutput)
-  // @Role(['Owner'])
-  // getOwnersShop(@AuthUser() owner: User): Promise<ShopOutput> {
-  //   return this.shopService.findShopById({ shopId: owner.shop.id });
+  // @Role(['Manager'])
+  // getManagersShop(@AuthUser() Manager: User): Promise<ShopOutput> {
+  //   return this.shopService.findShopById({ shopId: Manager.shop.id });
   // }
+
+  @Subscription(() => StockOutput, {
+    resolve: ({
+      recipeId,
+      possibleStock,
+    }: {
+      recipeId: string;
+      possibleStock: number;
+    }) => {
+      console.log(recipeId);
+      return { recipeId, possibleStock };
+    },
+  })
+  // @Role(['Manager'])
+  stockUpdates(): any {
+    return this.pubSub.asyncIterator(SUB_EVENTS.UPDATED_STOCK);
+  }
 }
 
 @Resolver(() => Ingredient)
