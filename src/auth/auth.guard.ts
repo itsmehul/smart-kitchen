@@ -1,6 +1,7 @@
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { GqlExecutionContext } from '@nestjs/graphql';
+import { ClientService } from 'src/client/client.service';
 import { JwtService } from 'src/jwt/jwt.service';
 import { UserService } from 'src/users/users.service';
 import { AllowedRoles } from './role.decorator';
@@ -11,6 +12,7 @@ export class AuthGuard implements CanActivate {
     private readonly reflector: Reflector,
     private readonly jwtService: JwtService,
     private readonly userService: UserService,
+    private readonly clientService: ClientService,
   ) {}
   async canActivate(context: ExecutionContext) {
     const roles = this.reflector.get<AllowedRoles>(
@@ -22,6 +24,16 @@ export class AuthGuard implements CanActivate {
     }
     const gqlContext = GqlExecutionContext.create(context).getContext();
     const token = gqlContext.token;
+
+    if (gqlContext.clientkey) {
+      const client = await this.clientService.getClientFromKey(
+        gqlContext.clientkey,
+      );
+      if (client) {
+        return true;
+      }
+      return false;
+    }
 
     if (roles.includes('Guest')) {
       if (token) {

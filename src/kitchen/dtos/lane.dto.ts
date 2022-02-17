@@ -61,7 +61,10 @@ export class ShiftRecipeToLaneInput extends PickType(Lane, [
   @Field(() => LaneStatus, { description: 'Lane to move from' })
   lane: LaneStatus;
 
-  @Field(() => Direction, { description: 'direction to move' })
+  @Field(() => Direction, {
+    description: 'direction to move',
+    defaultValue: 'RIGHT',
+  })
   direction: Direction;
 }
 
@@ -72,9 +75,9 @@ export class GetLaneEntryInput extends PickType(Lane, [
 ]) {}
 
 @ObjectType()
-export class CreateLaneOutput extends CoreOutput {
+export class LaneOutput extends CoreOutput {
   @Field(() => Lane, { nullable: true })
-  Lane?: Lane;
+  lane?: Lane;
 }
 
 @ObjectType()

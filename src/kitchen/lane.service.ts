@@ -1,7 +1,9 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { EventEmitter2 } from '@nestjs/event-emitter';
 import { InjectRepository } from '@nestjs/typeorm';
+import { PubSub } from 'graphql-subscriptions';
 import { DateTime } from 'luxon';
+import { PUB_SUB, SUB_EVENTS } from 'src/common/common.constants';
 import { CoreOutput } from 'src/common/dtos/output.dto';
 import { handleErrorResponse } from 'src/utils/misc';
 import { Repository } from 'typeorm';
@@ -9,7 +11,6 @@ import {
   Direction,
   OrderActionType,
   OrderToLaneInput,
-  PromoteRecipesInput,
   ShiftRecipeToLaneInput,
   UpdateForecastInput,
 } from './dtos/lane.dto';
@@ -19,6 +20,7 @@ import { Lane, LaneStatus } from './entities/lane.entity';
 export class LaneService {
   constructor(
     @InjectRepository(Lane) private readonly lane: Repository<Lane>,
+    @Inject(PUB_SUB) private readonly pubSub: PubSub,
     private eventEmitter: EventEmitter2,
   ) {}
 
@@ -108,32 +110,6 @@ export class LaneService {
     return lane;
   }
 
-  async promoteRecipes(input: PromoteRecipesInput): Promise<CoreOutput> {
-    try {
-      const lane = await this.getEntryForRecipeAndDate(
-        input.recipeId,
-        input.serviceDate,
-      );
-
-      const lanes = ['inKitchen', 'inProcessing', 'inCompleted'];
-      let laneIdx = 0;
-      for (let i = 0; i < input.qty; i++) {
-        if (lane[lanes[laneIdx]] === 0) {
-          laneIdx++;
-          if (laneIdx === lanes.length - 1) {
-            break;
-          }
-        }
-        lane[lanes[laneIdx]] -= 1;
-        lane[lanes[laneIdx + 1]] += 1;
-      }
-      await this.lane.save(lane);
-      return { ok: true };
-    } catch (error) {
-      return handleErrorResponse(error, 'Unable to create order');
-    }
-  }
-
   async shiftRecipeToLane(input: ShiftRecipeToLaneInput): Promise<CoreOutput> {
     try {
       const lane = await this.getEntryForRecipeAndDate(
@@ -157,10 +133,12 @@ export class LaneService {
         toIdx = fromIdx - 1;
       }
 
-      lane[fromIdx] = Math.max(lane[fromIdx] - input.qty, 0);
-      lane[toIdx] = lane[toIdx] + input.qty;
+      lane[lanes[fromIdx]] = Math.max(lane[lanes[fromIdx]] - input.qty, 0);
+      lane[lanes[toIdx]] = lane[lanes[toIdx]] + input.qty;
 
       await this.lane.save(lane);
+
+      this.pubSub.publish(SUB_EVENTS.MOVED_LANES, lane);
       return { ok: true };
     } catch (error) {
       return handleErrorResponse(error, 'Unable to create order');

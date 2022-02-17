@@ -13,6 +13,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import * as Joi from 'joi';
 import { getSqljsManager } from 'typeorm';
 import { AuthModule } from './auth/auth.module';
+import { ClientModule } from './client/client.module';
+import { Client } from './client/entities/Client.entity';
 import { CommonModule } from './common/common.module';
 import { DeliveryModule } from './delivery/delivery.module';
 import { Bowl } from './delivery/entities/bowl.entity';
@@ -25,7 +27,6 @@ import { Storage } from './inventory/entities/storage.entity';
 import { InventoryModule } from './inventory/inventory.module';
 import { JwtMiddleware } from './jwt/jwt.middleware';
 import { JwtModule } from './jwt/jwt.module';
-import { Forecast } from './kitchen/entities/forecast.entity';
 import { Kitchen } from './kitchen/entities/kitchen.entity';
 import { Lane } from './kitchen/entities/lane.entity';
 import { Order } from './kitchen/entities/order.entity';
@@ -102,7 +103,6 @@ import { UsersModule } from './users/users.module';
         Kitchen,
         Action,
         Menu,
-        Forecast,
         Order,
         TiramizooOrder,
         TiramizooPackage,
@@ -114,6 +114,7 @@ import { UsersModule } from './users/users.module';
         Scheduledtask,
         Bowl,
         MenuDish,
+        Client,
       ],
     }),
     GraphQLModule.forRoot({
@@ -125,11 +126,17 @@ import { UsersModule } from './users/users.module';
       },
       context: ({ req, connection }) => {
         const TOKEN_KEY = 'authorization';
+        const CLIENT_KEY = 'clientkey';
         const token = (
           req ? req.headers[TOKEN_KEY] : connection.context[TOKEN_KEY]
         )?.split(' ')?.[1];
+
+        const clientKey = req
+          ? req.headers[CLIENT_KEY]
+          : connection.context[CLIENT_KEY];
         return {
           token,
+          clientKey,
         };
       },
     }),
@@ -159,6 +166,7 @@ import { UsersModule } from './users/users.module';
     DeliveryModule,
     ScheduledtaskModule,
     RecipeModule,
+    ClientModule,
   ],
   controllers: [],
   providers: [],

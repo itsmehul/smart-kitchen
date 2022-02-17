@@ -1,11 +1,11 @@
 import { Field, InputType, ObjectType } from '@nestjs/graphql';
+import { Client } from 'src/client/entities/Client.entity';
 import { CoreEntity } from 'src/common/entities/core.entity';
 import { Bowl } from 'src/delivery/entities/bowl.entity';
 import { Box } from 'src/delivery/entities/box.entity';
 import { User } from 'src/users/entities/user.entity';
-import { Column, Entity, OneToMany } from 'typeorm';
+import { Column, Entity, ManyToOne, OneToMany } from 'typeorm';
 import { Storage } from '../../inventory/entities/storage.entity';
-import { Forecast } from './forecast.entity';
 import { Lane } from './lane.entity';
 import { Order } from './order.entity';
 
@@ -63,10 +63,6 @@ export class Kitchen extends CoreEntity {
   @OneToMany(() => Order, (order) => order.kitchen)
   orders?: Order[];
 
-  @Field(() => [Forecast], { nullable: true })
-  @OneToMany(() => Forecast, (forecast) => forecast.kitchen)
-  forecasts?: Forecast[];
-
   @Field(() => [Bowl], { nullable: true })
   @OneToMany(() => Bowl, (bowl) => bowl.kitchen)
   bowls?: Bowl[];
@@ -82,4 +78,8 @@ export class Kitchen extends CoreEntity {
   @Field(() => [User])
   @OneToMany(() => User, (user) => user.kitchen)
   staff?: User[];
+
+  @Field(() => Client)
+  @ManyToOne(() => Client, (client) => client.kitchens)
+  client?: Client;
 }

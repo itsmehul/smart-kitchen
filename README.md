@@ -88,6 +88,10 @@ Inventory management
 - supplier management
 - cost management based on current price of batch
 Inheritance
+- cost
+- calories
+- nutrition
+- weight
 Multikitchen
 Forecasting system tied into lane mechanics
 Fast lane movement

@@ -7,7 +7,6 @@ import {
 } from '@nestjs/graphql';
 import { CoreEntity } from 'src/common/entities/core.entity';
 import { Inventory } from 'src/inventory/entities/inventory.entity';
-import { Forecast } from 'src/kitchen/entities/forecast.entity';
 import { Order } from 'src/kitchen/entities/order.entity';
 import { MenuDish } from 'src/menu/entities/menuDish.entity';
 import {
@@ -83,10 +82,6 @@ export class Recipe extends CoreEntity {
   })
   @ManyToMany(() => Recipe, (recipe) => recipe.cookbooks)
   cookbooks: Cookbook[];
-
-  @Field(() => [Forecast], { nullable: true })
-  @OneToMany(() => Forecast, (forecast) => forecast.recipe)
-  forecasts?: Forecast[];
 
   @Field(() => [Order], { nullable: true })
   @OneToMany(() => Order, (order) => order.recipe)

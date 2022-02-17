@@ -1,13 +1,15 @@
-import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+import { Inject } from '@nestjs/common';
+import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql';
+import { PubSub } from 'graphql-subscriptions';
 import { AuthUser } from 'src/auth/auth-user.decorator';
 import { Role } from 'src/auth/role.decorator';
+import { PUB_SUB, SUB_EVENTS } from 'src/common/common.constants';
 import { CoreOutput } from 'src/common/dtos/output.dto';
 import { BoxService } from 'src/delivery/box.service';
 import { BoxesToDeliverOutput } from 'src/delivery/dto/delivery.dto';
 import { User } from 'src/users/entities/user.entity';
-import { ForecastsOutput } from './dtos/forecast.dto';
 import { CreateKitchenInput, KitchenIdInput } from './dtos/Kitchen.dto';
-import { PromoteRecipesInput, UpdateForecastInput } from './dtos/lane.dto';
+import { ShiftRecipeToLaneInput, UpdateForecastInput } from './dtos/lane.dto';
 import {
   CancelOrderInput,
   CreateOrderInput,
@@ -15,7 +17,6 @@ import {
   PackOrdersInput,
   PackOrderViaBowlInput,
 } from './dtos/order.dto';
-import { Forecast } from './entities/forecast.entity';
 import { Kitchen } from './entities/Kitchen.entity';
 import { Lane } from './entities/lane.entity';
 import { Order } from './entities/order.entity';
@@ -33,16 +34,6 @@ export class KitchenResolver {
   ): Promise<CoreOutput> {
     await this.kitchenService.createKitchen(input);
     return { ok: true };
-  }
-}
-
-@Resolver(() => Forecast)
-export class ForecastResolver {
-  constructor(private readonly kitchenService: KitchenService) {}
-
-  @Query(() => ForecastsOutput)
-  getForecasts(): Promise<ForecastsOutput> {
-    return this.kitchenService.getForecasts();
   }
 }
 
@@ -77,6 +68,7 @@ export class OrderResolver {
     return { ok: true, boxes };
   }
 
+  @Role(['Manager', 'Staff'])
   @Mutation(() => CoreOutput)
   createOrder(@Args('input') input: CreateOrderInput): Promise<CoreOutput> {
     return this.orderService.createOrder(input);
@@ -100,15 +92,18 @@ export class OrderResolver {
 
 @Resolver(() => Lane)
 export class LaneResolver {
-  constructor(private readonly laneService: LaneService) {}
+  constructor(
+    private readonly laneService: LaneService,
+    @Inject(PUB_SUB) private readonly pubSub: PubSub,
+  ) {}
 
   @Role(['Manager'])
   @Mutation(() => CoreOutput)
-  promoteRecipes(
+  shiftRecipeToLane(
     @AuthUser() user: User,
-    @Args('input') input: PromoteRecipesInput,
+    @Args('input') input: ShiftRecipeToLaneInput,
   ): Promise<CoreOutput> {
-    return this.laneService.promoteRecipes(input);
+    return this.laneService.shiftRecipeToLane(input);
   }
 
   @Mutation(() => CoreOutput)
@@ -119,5 +114,18 @@ export class LaneResolver {
     return {
       ok: true,
     };
+  }
+
+  @Subscription(() => Lane, {
+    resolve: (lane) => {
+      return lane;
+    },
+    filter: (payload, _, { user }) => {
+      return payload.kitchenId === user.kitchenId;
+    },
+  })
+  @Role(['Manager'])
+  laneUpdates(): any {
+    return this.pubSub.asyncIterator(SUB_EVENTS.MOVED_LANES);
   }
 }

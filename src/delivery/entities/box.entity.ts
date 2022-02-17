@@ -3,14 +3,7 @@ import { CoreEntity } from 'src/common/entities/core.entity';
 import { Kitchen } from 'src/kitchen/entities/kitchen.entity';
 import { Order } from 'src/kitchen/entities/order.entity';
 import { Temperature } from 'src/recipe/entities/recipe.entity';
-import {
-  Column,
-  Entity,
-  Index,
-  ManyToOne,
-  OneToMany,
-  RelationId,
-} from 'typeorm';
+import { Column, Entity, ManyToOne, OneToMany, RelationId } from 'typeorm';
 
 @InputType('BoxInputType', { isAbstract: true })
 @ObjectType()

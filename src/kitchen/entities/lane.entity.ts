@@ -12,9 +12,9 @@ import { BeforeInsert, Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { Kitchen } from './kitchen.entity';
 
 export enum LaneStatus {
-  inProcessing = 'in_processing',
-  inKitchen = 'in_kitchen',
-  inCompleted = 'in_completed',
+  inProcessing = 'inProcessing',
+  inKitchen = 'inKitchen',
+  inCompleted = 'inCompleted',
 }
 
 export const MOVEMENT_DIRECTION = [
@@ -63,7 +63,7 @@ export class Lane extends CoreEntity {
   inCompleted: number;
 
   @Field(() => Recipe, { nullable: true })
-  @ManyToOne(() => Recipe, (recipe) => recipe.forecasts)
+  @ManyToOne(() => Recipe)
   recipe?: Recipe;
 
   @Field(() => Kitchen)
@@ -79,7 +79,7 @@ export class Lane extends CoreEntity {
   kitchenId: string;
 
   @BeforeInsert()
-  async hashPassword(): Promise<void> {
+  async addRemainingQty(): Promise<void> {
     if (this.forecastedQty) {
       try {
         this.remainingQty = this.forecastedQty;

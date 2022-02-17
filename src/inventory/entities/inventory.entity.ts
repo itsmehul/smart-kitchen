@@ -47,6 +47,6 @@ export class Inventory extends CoreEntity {
   action?: Action;
 
   @Field(() => Storage, { nullable: true })
-  @ManyToOne(() => Storage, (Storage) => Storage.inventories, { eager: true })
+  @ManyToOne(() => Storage, (storage) => storage.inventories, { eager: true })
   storage?: Storage;
 }

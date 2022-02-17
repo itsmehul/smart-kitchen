@@ -1,10 +1,8 @@
 import { Inject } from '@nestjs/common';
 import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql';
 import { PubSub } from 'graphql-subscriptions';
-import { Role } from 'src/auth/role.decorator';
 import { PUB_SUB, SUB_EVENTS } from 'src/common/common.constants';
 import { CoreOutput } from 'src/common/dtos/output.dto';
-import { User } from 'src/users/entities/user.entity';
 import { BulkCreateActionOutput, CreateActionInput } from './dtos/action.dto';
 import {
   BulkCreateIngredientOutput,
@@ -47,7 +45,6 @@ export class InventoryResolver {
       recipeId: string;
       possibleStock: number;
     }) => {
-      console.log(recipeId);
       return { recipeId, possibleStock };
     },
   })
