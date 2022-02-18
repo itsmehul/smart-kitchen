@@ -64,7 +64,7 @@ export class Ingredient extends CoreEntity {
   @Column({ nullable: true })
   localization: string;
 
-  @Field(() => String)
+  @Field(() => Type)
   @Column({ type: 'enum', enum: Type })
   type: Type;
 

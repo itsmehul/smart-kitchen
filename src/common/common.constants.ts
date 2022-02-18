@@ -29,6 +29,7 @@ export enum EVENTS {
 export enum SUB_EVENTS {
   UPDATED_STOCK = 'UPDATED_STOCK',
   MOVED_LANES = 'MOVED_LANES',
+  PACK_ORDERS = 'PACK_ORDERS',
 }
 
 export enum CACHE_KEYS {

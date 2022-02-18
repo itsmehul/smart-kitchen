@@ -132,9 +132,9 @@ export class LaneService {
       if (input.direction === Direction.LEFT) {
         toIdx = fromIdx - 1;
       }
-
-      lane[lanes[fromIdx]] = Math.max(lane[lanes[fromIdx]] - input.qty, 0);
-      lane[lanes[toIdx]] = lane[lanes[toIdx]] + input.qty;
+      const result = Math.max(lane[lanes[fromIdx]] - input.qty, 0);
+      lane[lanes[toIdx]] += lane[lanes[fromIdx]] - result;
+      lane[lanes[fromIdx]] = result;
 
       await this.lane.save(lane);
 

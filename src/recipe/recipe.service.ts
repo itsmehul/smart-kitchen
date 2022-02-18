@@ -66,9 +66,9 @@ export class RecipeService {
 
   async getRecipes(): Promise<RecipesOutput> {
     const recipes = await this.recipe.find({
-      // where: {
-      //   id: '5fc698c2-c88b-40a9-870d-4252521076a7',
-      // },
+      where: {
+        id: '4c5703b1-4264-410b-9990-63c307d999a0',
+      },
       relations: [
         'cookbook',
         'cookbook.steps',
@@ -95,7 +95,7 @@ export class RecipeService {
             const inventories = recipeIng.ingredient.inventories.filter(
               (inv) =>
                 inv.storage.kitchenId ===
-                  '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+                  'a23a9685-f60c-4705-9503-5c4f9e21de64' &&
                 DateTime.fromISO(inv.expiry) > DateTime.now(),
             );
             const availableQty = inventories.reduce((a, b) => a + b.qty, 0);
@@ -107,7 +107,7 @@ export class RecipeService {
               const inventories = recipeIng.subRecipe.inventories.filter(
                 (inv) =>
                   inv.storage.kitchenId ===
-                    '2463f8c2-f8eb-41c9-8070-58084ce957d1' &&
+                    'a23a9685-f60c-4705-9503-5c4f9e21de64' &&
                   DateTime.fromISO(inv.expiry) > DateTime.now(),
               );
               const availableQty = inventories.reduce((a, b) => a + b.qty, 0);

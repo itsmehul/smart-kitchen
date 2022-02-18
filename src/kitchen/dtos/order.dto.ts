@@ -53,6 +53,12 @@ export class OrdersOutput extends CoreOutput {
   orders?: Order[];
 }
 
+@ObjectType()
+export class OrdersIdsOutput {
+  @Field(() => [String], { nullable: true })
+  orderIds?: string[];
+}
+
 @InputType()
 export class ShiftOrderInput {
   @Field(() => [String])

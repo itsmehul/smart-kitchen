@@ -8,11 +8,13 @@ import { CoreOutput } from 'src/common/dtos/output.dto';
 import { BoxService } from 'src/delivery/box.service';
 import { BoxesToDeliverOutput } from 'src/delivery/dto/delivery.dto';
 import { User } from 'src/users/entities/user.entity';
+import { handleErrorResponse } from 'src/utils/misc';
 import { CreateKitchenInput, KitchenIdInput } from './dtos/Kitchen.dto';
 import { ShiftRecipeToLaneInput, UpdateForecastInput } from './dtos/lane.dto';
 import {
   CancelOrderInput,
   CreateOrderInput,
+  OrdersIdsOutput,
   OrdersOutput,
   PackOrdersInput,
   PackOrderViaBowlInput,
@@ -43,6 +45,7 @@ export class OrderResolver {
     private readonly kitchenService: KitchenService,
     private readonly orderService: OrderService,
     private readonly boxService: BoxService,
+    @Inject(PUB_SUB) private readonly pubSub: PubSub,
   ) {}
 
   @Role(['Manager', 'Staff'])
@@ -52,6 +55,7 @@ export class OrderResolver {
     @Args('input') input: PackOrdersInput,
   ): Promise<BoxesToDeliverOutput> {
     const boxes = await this.orderService.packOrders(input, user.kitchenId);
+
     return { ok: true, boxes };
   }
 
@@ -61,11 +65,16 @@ export class OrderResolver {
     @AuthUser() user: User,
     @Args('input') input: PackOrderViaBowlInput,
   ): Promise<BoxesToDeliverOutput> {
-    const boxes = await this.orderService.packOrdersViaBowl(
-      input,
-      user.kitchenId,
-    );
-    return { ok: true, boxes };
+    try {
+      const boxes = await this.orderService.packOrdersViaBowl(
+        input,
+        user.kitchenId,
+      );
+
+      return { ok: true, boxes };
+    } catch (error) {
+      return handleErrorResponse(error, 'Cannot pack');
+    }
   }
 
   @Role(['Manager', 'Staff'])
@@ -87,6 +96,19 @@ export class OrderResolver {
       input.kitchenId,
     );
     return { ok: true, orders };
+  }
+
+  @Subscription(() => OrdersIdsOutput, {
+    resolve: (orderIds) => {
+      return orderIds;
+    },
+    filter: (payload, _, { user }) => {
+      return payload.kitchenId === user.kitchenId;
+    },
+  })
+  @Role(['Manager'])
+  packingUpdates(): any {
+    return this.pubSub.asyncIterator(SUB_EVENTS.PACK_ORDERS);
   }
 }
 

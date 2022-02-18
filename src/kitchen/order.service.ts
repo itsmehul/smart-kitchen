@@ -1,9 +1,10 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { EventEmitter2 } from '@nestjs/event-emitter';
 import { SchedulerRegistry } from '@nestjs/schedule';
 import { InjectRepository } from '@nestjs/typeorm';
+import { PubSub } from 'graphql-subscriptions';
 import { DateTime } from 'luxon';
-import { EVENTS } from 'src/common/common.constants';
+import { EVENTS, PUB_SUB, SUB_EVENTS } from 'src/common/common.constants';
 import { ArithmeticOperator } from 'src/common/common.interfaces';
 import { BowlService } from 'src/delivery/bowl.service';
 import { BoxService } from 'src/delivery/box.service';
@@ -39,6 +40,7 @@ export class OrderService {
     private readonly boxService: BoxService,
     private readonly bowlService: BowlService,
     private readonly inventoryService: InventoryService,
+    @Inject(PUB_SUB) private readonly pubSub: PubSub,
     private schedulerRegistry: SchedulerRegistry,
     private eventEmitter: EventEmitter2,
   ) {}
@@ -67,6 +69,13 @@ export class OrderService {
         },
         { status: OrderStatus.PACKED },
       );
+      console.log({
+        orderIds: input.orderIds,
+      });
+      this.pubSub.publish(SUB_EVENTS.PACK_ORDERS, {
+        orderIds: input.orderIds,
+        kitchenId,
+      });
       return this.boxService.getAllOrdersReadyForDelivery(kitchenId);
     } catch (error) {
       console.log('');
@@ -105,6 +114,8 @@ export class OrderService {
       // ) {
       //   throw 'The order window has closed for this order. Please order hours before delivery';
       // }
+
+      console.log(new Date().toString());
 
       const lane = await this.laneService.updateOrderedQtyToLane({
         action: OrderActionType.ADD,
@@ -173,6 +184,8 @@ export class OrderService {
         recipeId: input.recipeId,
       });
 
+      this.pubSub.publish(SUB_EVENTS.MOVED_LANES, lane);
+
       return { ok: true };
     } catch (error) {
       return handleErrorResponse(error, 'Unable to create order');
@@ -222,6 +235,8 @@ export class OrderService {
         possibleStock,
         recipeId: foundOrders[0].recipeId,
       });
+
+      this.pubSub.publish(SUB_EVENTS.MOVED_LANES, lane);
 
       return { ok: true };
     } catch (error) {

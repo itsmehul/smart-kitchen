@@ -23,6 +23,7 @@ export class ScheduledtaskModule {
     const tasks = await this.scheduledtaskService.getAllScheduledTasks();
     for (const task of tasks) {
       try {
+        // failsafe check
         const job = new CronJob(task.executionDateTime, async () => {
           if (task.type === TaskType.BOX) {
             const boxedOrders = await this.boxService.initiateBoxing(
